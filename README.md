@@ -10,7 +10,7 @@
 
 You'll be coding your solution in `js/function.js`. There are no tests for this lab (you'll be getting to testing in JavaScript in the next lesson), but it is important to practice writing your own JavaScript. You can find the solutions to these exercises in `solution.js`
 
-1. Write a function named `happyHolidays`. This function should no accept any parameters and should return the string `"Happy Holidays!!"`.
+1. Write a function named `happyHolidays`. This function should not accept any parameters and should return the string `"Happy Holidays!!"`.
 
 2. Write a function named `happyHolidaysWithName`. This function should accept a parameter of the name of the person you want to wish happy holidays, and return the string `"Happy Holidays, _name_"`
 
