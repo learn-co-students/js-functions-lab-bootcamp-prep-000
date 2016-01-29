@@ -6,6 +6,7 @@
 + Write a function that takes in a parameter
 + Write a function that takes in multiple parameters
 
+
 ## Instructions
 
 You'll be coding your solution in `js/function.js`. There are no tests for this lab (you'll be getting to testing in JavaScript in the next lesson), but it is important to practice writing your own JavaScript. You can find the solutions to these exercises in `solution.js`
@@ -17,4 +18,7 @@ You'll be coding your solution in `js/function.js`. There are no tests for this 
 3. Write a function named `HappyAnyHoliday`. This function should accept two parameters, the holiday you want to wish them well for, and the name of the person you're wishing well. This function should return the string `"Happy _holiday_, _name_"`
 
 4. Write a function named `holidayCountDown`. This function should accept two parameters, the holiday name and number of days till that holiday. The function should return the string `"It's _days_ till _holiday!"`
+
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-functions-lab' title='JavaScript Functions'>JavaScript Functions</a> on Learn.co and start learning to code for free.</p>
 
