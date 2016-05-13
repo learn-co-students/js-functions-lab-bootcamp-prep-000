@@ -9,7 +9,7 @@
 
 ## Instructions
 
-You'll be coding your solution in `js/function.js`. There are no tests for this lab (you'll be getting to testing in JavaScript in the next lesson), but it is important to practice writing your own JavaScript. You can find the solutions to these exercises in `solution.js`
+You'll be coding your solution in `index.js`. You can find the solutions to these exercises by checking out the `solution` branch.
 
 1. Write a function named `happyHolidays`. This function should not accept any parameters and should return the string `"Happy holidays!"`.
 
