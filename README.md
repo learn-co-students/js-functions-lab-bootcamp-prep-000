@@ -9,7 +9,7 @@
 
 ## Instructions
 
-You'll be coding your solution in `index.js`. You can find the solutions to these exercises by checking out the `solution` branch.
+You'll be coding your solution in `index.js`. 
 
 1. Write a function named `happyHolidays`. This function should not accept any parameters and should return the string `"Happy holidays!"`.
 
@@ -20,3 +20,5 @@ You'll be coding your solution in `index.js`. You can find the solutions to thes
 4. Write a function named `holidayCountdown`. This function should accept two parameters, the holiday name and number of days till that holiday. The function should return the string `"It's ${days} until ${holiday}!"`
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-functions-lab' title='JavaScript Functions'>JavaScript Functions</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-functions-lab'>Functions Lab</a> on Learn.co and start learning to code for free.</p>
