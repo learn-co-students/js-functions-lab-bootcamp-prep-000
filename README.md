@@ -9,7 +9,7 @@
 
 ## Instructions
 
-You'll be coding your solution in `index.js`. You can find the solutions to these exercises by checking out the `solution` branch.
+You'll be coding your solution in `index.js`. 
 
 1. Write a function named `happyHolidays`. This function should not accept any parameters and should return the string `"Happy holidays!"`.
 
