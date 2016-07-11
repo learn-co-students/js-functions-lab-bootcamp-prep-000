@@ -30,7 +30,7 @@ describe('functions', () => {
 
   describe('holidayCountdown(holiday, days)', () => {
     it('returns "It\'s ${days} until ${holiday}!"', () => {
-      expect(holidayCountdown("Mother's Day", days)).to.equal("It's 20 days until Mother's Day!")
+      expect(holidayCountdown("Mother's Day", 20)).to.equal("It's 20 days until Mother's Day!")
     })
   })
 })
