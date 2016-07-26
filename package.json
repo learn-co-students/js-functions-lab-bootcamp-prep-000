@@ -26,6 +26,7 @@
   "homepage": "https://github.com/learn-co-curriculum/js-functions-lab#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "expect": "^1.20.2",
     "jsdom": "^9.0.0",
     "mocha": "^2.4.5",
     "mocha-jsdom": "^1.1.0",

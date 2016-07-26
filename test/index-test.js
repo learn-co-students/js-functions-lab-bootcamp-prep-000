@@ -1,15 +1,6 @@
 /*global describe, it*/
 
-const expect = require('chai').expect
-const fs = require('fs')
-const jsdom = require('mocha-jsdom')
-const path = require('path')
-
 describe('functions', () => {
-  jsdom({
-    src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
-  })
-
   describe('happyHolidays', () => {
     it('returns "Happy holidays!"', () => {
       expect(happyHolidays()).to.equal('Happy holidays!')
