@@ -16,6 +16,13 @@ as functions so that we don't have to repeat ourselves. The beauty of functions
 is that we could reuse these functions for the text of greeting cards, for
 spoken greetings, for song lyrics, etc.
 
+  function happyHolidays()
+  {
+
+    return "Happy holidays!";
+  }
+    happyHolidays();
+
 1. Write a function named `happyHolidays`. This function should not accept any
 parameters and should return the string `"Happy holidays!"`.
 
