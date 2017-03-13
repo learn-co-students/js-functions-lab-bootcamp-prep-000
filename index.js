@@ -8,6 +8,7 @@ function happyHolidaysTo(name){
 function happyHolidayTo(holiday, name){
   return `Happy ${holiday}, ${name}!`;
 }
+//It's incorrect you have to switch places in teh return with holidays and days
 function holidayCountdown(days,holiday){
   return `It's ${holiday} days until ${days}!`;
 }
