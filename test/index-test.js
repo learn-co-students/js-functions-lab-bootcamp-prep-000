@@ -1,5 +1,22 @@
 /*global describe, it*/
+// -----HAPPY HOLIDAYS function
+function happyHolidays(){
+  return "Happy holidays!"
+}
 
+//----- happyHolidaysTo ---------------
+function happyHolidaysTo(name){
+  return `Happy holidays, ${name}!`
+}
+
+//--------------------
+function happyHolidayTo(holiday, name){
+  return `Happy ${holiday}, ${name}!`
+}
+// -----------------------------
+function holidayCountdown(holiday, days){
+  return `It\'s ${days} days until ${holiday}!`
+}
 describe('functions', () => {
   describe('happyHolidays', () => {
     it('returns "Happy holidays!"', () => {
