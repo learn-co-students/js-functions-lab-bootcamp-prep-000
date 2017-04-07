@@ -12,6 +12,8 @@ function happyHolidayTo (string1,string2){
   return "Happy " + string1 + ", " + string2 +"!"
 }
 
-function holidayCountdown (string, int){
+/*
+function holidayCountdown (string3, int){
   return "It's " + int + "days until " + string "!"
 }
+*/
