@@ -1,19 +1,14 @@
 // write your code below!
 function happyHolidays() {
-  return "Happy Holidays!"
+  return ("Happy holidays!")
 
 }
-function happyHolidaysTo (name){
-  var name = 'Andrea'
-  return 'Happy Holidays ${name} !'
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`
 }
 function happyHolidayTo (holiday, name){
-  var holiday = 'Christmas'
-  var name = 'Tom'
-  return 'Happy ${holiday}, ${name}!'
+  return `Happy ${holiday}, ${name}!`
 }
-function holidayCountDown (holiday, number){
-  var holiday=summer
-  var number=25
-  return "Only ${number} days 'till ${holiday}'"
+function holidayCountdown (holiday, days){
+  return `It's ${days} days until ${holiday}!`
 }
