@@ -9,13 +9,13 @@ describe('functions', () => {
 
   describe('happyHolidaysTo(name)', () => {
     it('returns "Happy holidays, ${name}!"', () => {
-      expect(happyHolidaysTo('name')).toEqual('Happy holidays, ${name}!')
+      expect(happyHolidaysTo('you')).toEqual('Happy holidays, you!')
     })
   })
 
   describe('happyHolidayTo(holiday, name)', () => {
     it('returns "Happy ${holiday}, ${name}!"', () => {
-      expect(happyHolidayTo('${cake}, ${name}!')).toEqual('${holiday}, ${name}!')
+      expect(happyHolidayTo('Independence Day', 'you')).toEqual('Happy Independence Day, you!')
     })
   })
 
