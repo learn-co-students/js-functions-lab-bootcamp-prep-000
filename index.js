@@ -3,11 +3,11 @@ var happyHolidays = function(){
   return "Happy holidays!"
 }
 var happyHolidaysTo = function(name){
-  "Happy Holidays, ${name}"
+  return `Happy holidays, ${name}!`
 }
 var happyHolidayTo = function(holiday, name){
-  "Happy ${holiday}, ${name}"
+  return `Happy ${holiday}, ${name}!`
 }
 var holidayCountdown = function(holiday, days){
-  "It's ${days} days until ${holiday}!"
+  return `It's ${days} days until ${holiday}!`
 }
