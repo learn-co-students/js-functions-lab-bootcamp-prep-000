@@ -2,17 +2,24 @@
 function happyHolidays(string){
   return string = "Happy holidays!"
 }
-function happyHolidaysTo(string){
-  var name = "you!"
-  return string = `Happy holidays, ${name}`
+
+happyHolidays(``)
+
+function happyHolidaysTo(name){
+  return string = `Happy holidays, ${name}!`
 }
-function happyHolidayTo(string){
-  var holiday = "Independence Day"
-  var name = "you!"
-  return string = `Happy ${holiday}, ${name}`
+
+happyHolidaysTo(`you`)
+
+function happyHolidayTo(holiday,name){
+  return string = `Happy ${holiday}, ${name}!`
 }
-function holidayCountdown(string){
-  var days = "20"
-  var holiday = "Mother's Day"
+
+happyHolidayTo(`Independence Day`,`you`)
+
+
+function holidayCountdown(holiday,days){
   return string = `It's ${days} days until ${holiday}!`
 }
+
+holidayCountdown(`Mother's Day`,20)
