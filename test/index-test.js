@@ -1,6 +1,4 @@
-/*global describe, it*/
 
-var name = 'you'
 describe('functions', () => {
   describe('happyHolidays', () => {
     it('returns "Happy holidays!"', () => {
