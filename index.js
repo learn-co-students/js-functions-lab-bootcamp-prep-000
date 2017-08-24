@@ -1,10 +1,13 @@
 // write your code below!
-function happyHolidays() {
-  return 'Happy holidays!'
-}
 function happyHolidaysTo(Rosie) {
   return `Happy holidays, ${Rosie}!`
 }
-function happyHolidaysTo(birthday, Rosie) {
+function happyHolidays() {
+  return "Happy holidays!"
+}
+function happyHolidayTo(birthday, Rosie) {
   return `Happy ${birthday}, ${Rosie}!`
+}
+function holidayCountdown(Christmas, 10) {
+  return `It\'s ${10} days until ${Christmas}!`
 }
