@@ -10,8 +10,14 @@ function happyHolidayTo(holiday,name){
   console.log('Happy ' + holiday + ', ' + name + '!')
 }
 
+function holidayCountdown(days, holiday){
+  console.log("It's " + parseString(days)  + " days untill " + "holiday!")
+}
+
 happyHolidays()
 
 happyHolidaysTo("Nemanja")
 
 happyHolidayTo("easter","Nemanja")
+
+holidayCountdown(90,"Christmas")
