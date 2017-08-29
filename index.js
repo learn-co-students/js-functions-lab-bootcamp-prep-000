@@ -11,7 +11,7 @@ function happyHolidayTo(holiday,name){
 }
 
 function holidayCountdown(days, holiday){
-  console.log("It's " + parseString(days)  + " days untill " + "holiday!")
+  console.log("It's " + days.toString()  + " days untill " + "holiday!")
 }
 
 happyHolidays()
