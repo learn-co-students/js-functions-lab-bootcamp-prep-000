@@ -1,23 +1,18 @@
 // write your code below!
+//sample
+
 function happyHolidays() {
-  console.log('happy Holidays!')
+  return (`Happy holidays!`)
 }
-happyHolidays();
-
-
-function happyHolidayTo(firstName) {
-  console.log('happy Holidays, ${firstName}!')
+//note: back tick (``) are as shown below are very important//
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`
 }
-happyHolidaysTo("Lisa");
 
-
-function happyHolidayTo(greeting,firstName) {
-  console.log('Happy ${greeting},${firstName}!')
+function happyHolidayTo(holiday,name) {
+  return `Happy ${holiday}, ${name}!`
 }
-happyHolidaysTo("laborday","John");
-
-
-function holidayCountdown(holidayName, Numberofdays) {
-  console.log('its ${days!} days until ${holiday}!')
+//capitaliziing in the right places is everything
+function holidayCountdown(holiday,number) {
+  return `It's ${number} days until ${holiday}!`
 }
-holidayCountdown(10, "laborday");
