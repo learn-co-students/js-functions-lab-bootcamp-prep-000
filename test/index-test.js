@@ -1,4 +1,3 @@
-/*global describe, it*/
 
 describe('functions', () => {
   describe('happyHolidays', () => {
