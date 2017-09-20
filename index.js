@@ -10,7 +10,6 @@ function happyHolidays() {
 parameter of the name of the person you want to wish happy holidays, and return
 the string `Happy holidays, ${name}!` */
 function happyHolidaysTo(name) {
-  var $name = "you";
   return `Happy holidays, ${name}!`
 }
 
@@ -19,8 +18,6 @@ parameters, the holiday you want to wish them well for, and the name of the
 person you're wishing well. This function should return the string
 `Happy ${holiday}, ${name}!` */
 function happyHolidayTo(holiday, name) {
-  var $holiday = "Independence Day";
-  var $name = "you";
   return `Happy ${holiday}, ${name}!`
 }
 
@@ -28,7 +25,5 @@ function happyHolidayTo(holiday, name) {
 parameters, the holiday name and number of days till that holiday. The function
 should return the string `It's ${days} days until ${holiday}!` */
 function holidayCountdown(holiday, days) {
-  var $days = 20;
-  var $holiday = "Mother's Day";
   return `It\'s ${days} days until ${holiday}!`
 }
