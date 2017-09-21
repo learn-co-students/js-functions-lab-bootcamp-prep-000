@@ -1,0 +1,25 @@
+[33m14b25ce[m Replace double-quotes with back-ticks to avoid confusing students [31m(Gabe Jackson, 10 weeks ago)[m
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex f4c75ea..b16db9f 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -21,15 +21,15 @@[m [mparameters and should return the string `"Happy holidays!"`.[m
+ [m
+ 2. Write a function named `happyHolidaysTo`. This function should accept a[m
+ parameter of the name of the person you want to wish happy holidays, and return[m
+[31m-the string `"Happy holidays, ${name}!"`[m
+[32m+[m[32mthe string `` `Happy holidays, ${name}!` ``[m
+ [m
+ 3. Write a function named `happyHolidayTo`. This function should accept two[m
+ parameters, the holiday you want to wish them well for, and the name of the[m
+ person you're wishing well. This function should return the string[m
+[31m-`"Happy ${holiday}, ${name}!"`[m
+[32m+[m[32m`` `Happy ${holiday}, ${name}!` ``[m
+ [m
+ 4. Write a function named `holidayCountdown`. This function should accept two[m
+ parameters, the holiday name and number of days till that holiday. The function[m
+[31m-should return the string `"It's ${days} days until ${holiday}!"`[m
+[32m+[m[32mshould return the string `` `It's ${days} days until ${holiday}!` ``[m
+ [m
+ <p class='util--hide'>View <a href='https://learn.co/lessons/js-functions-lab'>Functions Lab</a> on Learn.co and start learning to code for free.</p>[m
