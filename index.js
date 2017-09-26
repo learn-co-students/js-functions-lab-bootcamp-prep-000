@@ -1,18 +1,15 @@
-var holiday = Halloween
-var name = Susan
-var days = "30"
-
 function happyHolidays() {
-  console.log("Happy Holidays!")
-  return "Happy Holidays!"
+  return "Happy holidays!"
 }
-function happyHolidaysTo("name") {
-  return `Happy Holidays, ${name}!`
+
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`
 }
-function happyHolidayTo("holiday", "name") {
-  console.log("Happy Halloween, Susan!")
-  return `Happy ${holiday}, ${name}`
+
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
 }
-function holidayCountdown("holiday", "days") {
+
+function holidayCountdown(holiday, days) {
   return `It's ${days} days until ${holiday}!`
 }
