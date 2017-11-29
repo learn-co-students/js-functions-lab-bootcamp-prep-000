@@ -1,4 +1,15 @@
-function ("happyHolidays!"): {
-console.log `Happy ${holiday}, ${name}!`
-`It's ${days} days until ${holiday}!`
+function happyHolidays () {
+return "Happy holidays!"
+}
+
+function happyHolidaysTo (Joe) {
+return `Happy holidays, ${Joe}!`
+}
+
+function happyHolidayTo (Joe) {
+return  `Happy ${christmas}, ${Joe}!";`
+}
+
+function holidayCountdown (christmas) {
+return `It's ${20} days until ${christmas}!";`
 }
