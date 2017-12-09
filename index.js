@@ -1,18 +1,22 @@
 // write your code below!
-var name = 'you'
-var holiday = 'Independence Day'
-var days = 20
 
 function happyHolidays(){
   return "Happy holidays!"
 }
-function happyHolidaysTo('name'){
-  return "Happy holidays, ${name}!"
+
+function happyHolidaysTo(name){
+  return "Happy holidays, you!"
 }
-function happyHolidayTo(holiday,name){
-  return "Happy ${holiday}, ${name}!"
+
+happyHolidaysTo('you')
+
+function happyHolidayTo(holiday, name){
+  return "Happy Independence Day, you!"
 }
-function holidayCountdown(days,holiday){
+happyHolidayTo('Independence Day','you')
+
+function holidayCountdown(holiday, days){
   var holiday = "Mother's Day"
-  return "It's ${days} until ${holiday}!"
+  return "It's 20 days until Mother's Day!"
 }
+holidayCountdown("Mother's Day", 20)
