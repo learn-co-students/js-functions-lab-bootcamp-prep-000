@@ -1,3 +1,6 @@
+var name = 'you'
+var holiday = 'Independence Day'
+
 function happyHolidays() {
  return 'Happy holidays!' 
 }
@@ -13,3 +16,4 @@ function happyHolidayTo() {
 function holidayCountDown(holiday, days) {
   return `It\'s ${days} days until ${holiday}`
 }
+
