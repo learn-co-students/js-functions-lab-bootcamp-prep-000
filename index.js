@@ -1,19 +1,16 @@
 // write your code below!
-function happyHolydays(){
-  return "Happy holidays!"
+function happyHolidays() {
+  return "Happy holidays!";
 }
 
-function happyHolidaysTo(karen) {
-  return `"Happy holidays, ${karen}!"`;
+function happyHolidaysTo(you) {
+  return `Happy holidays, ${you}!`;
 }
 
-function happyHolidayTo(easter, karen) {
-  return `"Happy ${easter}, ${karen}!"`;
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
 }
 
-function holidayCountdown(32, Valentines) {
-  return `"It's ${32} days until ${Valentines}!"`;
+function holidayCountdown(holiday, days) {
+  return `It's ${days} days until ${holiday}!`
 }
-
-//I believe this is the right code, However I keep getting Reference errors
-//even after cloned the lab, and started fresh.
