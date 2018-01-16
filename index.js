@@ -7,3 +7,7 @@ function happyHolidaysTo(string) {
   name = 'Johnny'
   return string, ${name}!
 }
+
+function happyHolidayTo ($holiday, $name)
+
+function holidayCountdown ($holiday, $days)
