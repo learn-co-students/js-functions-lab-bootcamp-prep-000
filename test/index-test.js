@@ -1,4 +1,5 @@
 /*global describe, it*/
+var index=require("../index.js")
 
 describe('functions', () => {
   describe('happyHolidays', () => {
