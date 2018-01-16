@@ -9,6 +9,8 @@ function happyHolidays() {
 // the string `"Happy holidays, ${name}!"`
 function happyHolidaysTo(name) {
   return "Happy holidays, ${name}!"
+  
+  happyHolidayTo ("you")
 }
 
 // 3. Write a function named `happyHolidayTo`. This function should accept two
@@ -16,7 +18,9 @@ function happyHolidaysTo(name) {
 // person you're wishing well. This function should return the string
 // `"Happy ${holiday}, ${name}!"`
 function happyHolidayTo(holiday, name) {
-  return "Happy ${holiday}, ${name}!"
+  return "Happy ${holiday} to ${name}!"
+  
+  happyHolidayTo ("Independence Day", "you")
 }
 
 // 4. Write a function named `holidayCountdown`. This function should accept two
@@ -24,4 +28,6 @@ function happyHolidayTo(holiday, name) {
 // should return the string `"It's ${days} days until ${holiday}!"`
 function holidayCountdown(holiday, days) {
   return "It\'s ${days} days until ${holiday}!"
+  
+  holidayCountdown ()
 }
