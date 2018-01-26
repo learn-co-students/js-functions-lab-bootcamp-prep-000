@@ -12,7 +12,7 @@ describe('functions', () => {
       expect(happyHolidaysTo('you')).toEqual('Happy holidays, you!')
     })
   })
-
+  
   describe('happyHolidayTo(holiday, name)', () => {
     it('returns "Happy ${holiday}, ${name}!"', () => {
       expect(happyHolidayTo('Independence Day', 'you')).toEqual('Happy Independence Day, you!')
