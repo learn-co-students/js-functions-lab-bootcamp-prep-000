@@ -1,3 +1,4 @@
+
 /*global describe, it*/
 
 describe('functions', () => {
