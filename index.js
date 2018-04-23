@@ -1,9 +1,9 @@
 // write your code below!
-function happyHolidays(string)
-returns "Happy holidays!"
-function happyHolidaysTo(string)
-returns "'Happy holidays," ${name}!'
-function happyHolidaysTo(string)
-returns "'Happy" ${holiday}, ${name}!'
-function holidayCountdown(string)
-returns "'It's" ${days} days "until" ${holiday}!'
+function happyHolidays(){}
+console.log ("Happy holidays!");
+function happyHolidaysTo(){}
+console.log ("Happy holidays, {$name}!");
+function happyHolidaysTo(){}
+console.log ("Happy ${holiday}, ${name}!");
+function holidayCountdown(){}
+console.log ("It is ${days} days until ${holiday}!");
