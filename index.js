@@ -1,6 +1,6 @@
-// write your code below!
-function happyHolidays (){
-  console.log  ("happy Holidays")
+// write your code below!cfunction happyHolidays (){
+function happyHoliday()
+  console.log  ("Happy holidays")
 }
 function happyHolidaysTo (happyHolidaysTo, name){
 console.log ("happyHolidaysTo"), ${name}
