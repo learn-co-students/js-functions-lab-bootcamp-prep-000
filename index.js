@@ -11,7 +11,3 @@ function happyHolidayTo (holiday, name) {
 function holidayCountdown (holiday, days) {
   return `It's ${days} days until ${holiday}!`
 }
-function speaker() {
-  var sentence = 'Bird is the word.'
-  console.log(sentence)
-}
