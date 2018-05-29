@@ -1,5 +1,3 @@
-// write your code below!
-
 function happyHolidays() {
   console.log("Happy holidays!")
   return "Happy holidays!"
@@ -26,6 +24,6 @@ function holidayCountdown(holiday, days) {
   return `It's ${days} days until ${holiday}!`
 }
 
-holidayCountdown('Mother\'s Day', 20)
+holidayCountdown("Mother's Day", 20)
 
 
