@@ -12,20 +12,20 @@ function happyHolidaysTo(name) {
   return `Happy holidays, ${name}!`
 }
 
-happyHolidaysTo('Mary')
+happyHolidaysTo('you')
 
 function happyHolidayTo(holiday, name) {
   console.log(`Happy ${holiday}, ${name}!`)
   return `Happy ${holiday}, ${name}!`
 }
 
-happyHolidayTo('Christmas', 'Mary')
+happyHolidayTo('Independence Day', 'you')
 
 function holidayCountdown(holiday, days) {
   console.log(`It's ${days} days until ${holiday}!`)
   return `It's ${days} days until ${holiday}!`
 }
 
-holidayCountdown('Christmas', 5)
+holidayCountdown('Mother\'s Day', 20)
 
 
