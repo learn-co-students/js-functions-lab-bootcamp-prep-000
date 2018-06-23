@@ -1,6 +1,6 @@
-var holiday = 'Birthday'
-var name = 'Katie'
-var days = 20
+holiday = 'Birthday'
+name = 'Katie'
+days = 20
 
 
 function happyHolidays() {
