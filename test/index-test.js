@@ -1,7 +1,9 @@
-Function ('happyHolidayTo') output ('var name')
+Function ('happyHolidayTo') output {'$name'}!`
   if ('happyHolidayTo)' output
 ('Happy Holidays, ${"var name");
 
+function ('happyholidays') 
+  returns ("Happy Holidays!")
 }
 Function ('happyHolidayTo')
   returns ("Happy Holidays, ${name}!");
