@@ -1,4 +1,4 @@
-Function ('happyHolidayTo') {'$name'}!`
+Function ('happyHolidayTo', '$name')}!`
   if ('happyHolidayTo)' 
 returns ('Happy Holidays, ${$name!}';
 
