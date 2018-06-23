@@ -1,6 +1,6 @@
 Function ('happyHolidayTo') {'$name'}!`
   if ('happyHolidayTo)' 
-returns ('Happy Holidays, ${"$name!}';
+returns ('Happy Holidays, ${$name!}';
 
 function ('happyholidays') 
   returns ("Happy Holidays!")
