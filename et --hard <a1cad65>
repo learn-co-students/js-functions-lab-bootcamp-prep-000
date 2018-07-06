@@ -1,0 +1,27 @@
+[33ma1cad65[m (package.lock this time) [31m(Daniel Seehausen, 2 weeks ago)[m
+[33maa9f541[m dependency fix and adding .lock file to avoid current mocha js breaking issue [31m(Daniel Seehausen, 2 weeks ago)[m
+[33m50abb47[m Remove hard lines breaks [31m(Avidor Turkewitz, 7 months ago)[m
+[33m14b25ce[m Replace double-quotes with back-ticks to avoid confusing students [31m(Gabe Jackson, 12 months ago)[m
+[33m84b7615[m closes #12 [31m(AnnJohn, 1 year, 9 months ago)[m
+[33mf1ad0f5[m Merge pull request #10 from arbatskiy/arbatskiy-1472582498 [31m(AnnJohn, 1 year, 10 months ago)[m
+[33ma312e07[m Add ! as in tests [31m(Artem Arbatskiy, 1 year, 10 months ago)[m
+[33mc7c5144[m Update tests [31m(Charles Pletcher, 1 year, 11 months ago)[m
+[33mf786cc4[m Fix tests [31m(Charles Pletcher, 1 year, 11 months ago)[m
+[33m2a3e5fa[m Update tests [31m(Charles Pletcher, 1 year, 11 months ago)[m
+[33mb7d2c9b[m Frame the lesson a bit better [31m(Charles Pletcher, 2 years ago)[m
+[33m5dd5e42[m Merge pull request #6 from aturkewi/aturkewi-1467336173 [31m(Charles Pletcher, 2 years ago)[m
+[33m9adcae9[m Merge pull request #7 from aturkewi/aturkewi-1467336199 [31m(Avidor Turkewitz, 2 years ago)[m
+[33mfe1ab71[m Fix string for last test [31m(Avidor Turkewitz, 2 years ago)[m
+[33md2e0a24[m Remove note telling students to check solution [31m(Avidor Turkewitz, 2 years ago)[m
+[33mb16a5ea[m Remove solution [31m(Charles Pletcher, 2 years, 2 months ago)[m
+[33m5ad579f[m Solve lab, fix README [31m(Charles Pletcher, 2 years, 2 months ago)[m
+[33m3d75866[m Update README.md [31m(Charles Pletcher, 2 years, 2 months ago)[m
+[33m9c42f91[m Rewrite README and tests [31m(Charles Pletcher, 2 years, 2 months ago)[m
+[33m5b8f97b[m Merge pull request #2 from frankNowinski/frankNowinski-1454433059 [31m(AnnJohn, 2 years, 5 months ago)[m
+[33m57c25d6[m Updated README.md [31m(Frank Nowinski, 2 years, 5 months ago)[m
+[33m6a1e010[m merge conflict [31m(vicfriedman, 2 years, 5 months ago)[m
+[33m0f3498d[m optimize learn link [processing skip] [31m(Adam Jonas, 2 years, 5 months ago)[m
+[33m7b7ef53[m typo fix [31m(Ian Candy, 2 years, 6 months ago)[m
+[33mb5d159e[m math [31m(vicfriedman, 2 years, 6 months ago)[m
+[33mb84d8b7[m lab [31m(vicfriedman, 2 years, 6 months ago)[m
+[33m28b724d[m objectives [31m(vicfriedman, 2 years, 6 months ago)[m
