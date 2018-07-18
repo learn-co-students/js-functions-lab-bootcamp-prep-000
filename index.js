@@ -6,23 +6,26 @@ function happyHolidays(){
 
 happyHolidays()
 
+/**/
 function happyHolidaysTo(name){
-  console.log(`Happy Holidays, ${name}!`)
-  return `Happy Holidays, ${name}!`
+  console.log(`Happy holidays, ${name}!`)
+  return `Happy holidays, ${name}!`
 }
 
-happyHolidaysTo("Mathew")
+happyHolidaysTo("you")
 
+/**/
 function happyHolidayTo(holiday,name){
-  console.log(`Wishing you a happy ${holiday}, ${name}!`)
-  return `Wishing you a happy ${holiday}, ${name}!`
+  console.log(`Happy ${holiday}, ${name}!`)
+  return `Happy ${holiday}, ${name}!`
 }
 
-happyHolidayTo("Christmas", "Jenny")
+happyHolidayTo("Independence Day", "you")
 
-function holidayCountdown(days, holiday){
+/**/
+function holidayCountdown(holiday, days){
   console.log(`It's ${days} days until ${holiday}!`)
   return `It's ${days} days until ${holiday}!`
 }
 
-holidayCountdown(26, "Thanks Giving")
+holidayCountdown("Mother's Day", 20 )
