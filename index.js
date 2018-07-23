@@ -5,13 +5,13 @@ function happyHolidays (){
 }
 
 function happyHolidaysTo(n){
-  return ("Happy holidays, ${n}!")
+  return ("Happy holidays, " + n + "!")
 }
 
 function happyHolidayTo(h, n){
-  return ("Happy ${h}, ${n}!")
+  return ("Happy " + h + ", " + n + "!")
 }
 
 function holidayCountdown(h, d){
-  return ("It\'s ${d} days until ${h}!")
+  return ("It\'s " + d + " days until " + h + "!")
 }
