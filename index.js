@@ -6,8 +6,8 @@ function happyHolidays() {
 
 function happyHolidaysTo(string) {
   var name = string
-  return "Happy ${holiday}, ${name}"
+  return '"Happy ${holiday}", ${name}'
 }
 
 happyHolidays
-happyHolidaysTo('you')
+happyHolidaysTo('Santa')
