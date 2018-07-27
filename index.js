@@ -16,8 +16,9 @@ function holidayCountdown(holiday, days) {
   returns "It's ${days} days until${holiday}!"
 }
  */
-/*
+
 happyHolidays
+/*
 happyHolidaysTo(you)
  */
  var testname = "Santa"
