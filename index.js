@@ -9,4 +9,4 @@ function happyHolidaysTo(name) {
 }
 
 happyHolidays
-happyHolidaysTo('you')
+happyHolidaysTo("you")
