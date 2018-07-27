@@ -16,17 +16,16 @@ function holidayCountdown(holiday, days) {
   returns "It's ${days} days until${holiday}!"
 }
  */
-
-console.log("Starting Function Lab.")
-happyHolidays
-console.log("Finished Function Lab.")
 /*
-
-happyHolidaysTo("you")
-
 var testname = "Santa"
 console.log($testname)
 console.log("this is my,$testname")
  */
  
- 
+console.log("Starting Function Lab.") // NOT DISPLAYED
+happyHolidays
+console.log("Finished Function Lab.") // NOT DISPLAYED
+console.log(" ") // not DISPLAYED
+
+happyHolidaysTo("you")
+
