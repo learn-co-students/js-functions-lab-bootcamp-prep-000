@@ -8,7 +8,9 @@ function happyHolidaysTo(name) {
   return "Happy holidays, ${name}!"
 }
 /*
-functions happyHolidayTo(holiday, name) {
+functions happyHolidayTo(string, string) {
+  var holiday = string
+  var name = string
   returns "Happy ${holiday}, ${name}!"
 }
 
@@ -20,7 +22,6 @@ function holidayCountdown(holiday, days) {
 var testname = "Santa"
 console.log($testname)
 console.log("this is my,$testname")
- */
  
 console.log("Starting Function Lab.") // NOT DISPLAYED
 happyHolidays
@@ -28,4 +29,4 @@ console.log("Finished Function Lab.") // NOT DISPLAYED
 console.log(" ") // not DISPLAYED
 
 happyHolidaysTo("you")
-
+ */
