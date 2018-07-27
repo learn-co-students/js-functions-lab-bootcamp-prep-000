@@ -20,4 +20,7 @@ function holidayCountdown(holiday, days) {
 happyHolidays
 happyHolidaysTo(you)
  */
+ var testname = "Santa"
+ console.log($testname)
+ console.log("this is my,$testname")
  
