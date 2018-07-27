@@ -17,11 +17,16 @@ function holidayCountdown(holiday, days) {
 }
  */
 
-print(happyHolidays)
+console.log("Starting Function Lab.")
+happyHolidays
+console.log("Finished Function Lab.")
+/*
 
 happyHolidaysTo("you")
 
 var testname = "Santa"
 console.log($testname)
 console.log("this is my,$testname")
+ */
+ 
  
