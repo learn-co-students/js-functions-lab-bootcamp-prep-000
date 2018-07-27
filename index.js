@@ -17,7 +17,7 @@ function holidayCountdown(holiday, days) {
 }
  */
 
-happyHolidays
+console.log(happyHolidays)
 /*
 happyHolidaysTo(you)
  */
