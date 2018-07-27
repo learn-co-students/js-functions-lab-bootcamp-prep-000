@@ -6,7 +6,7 @@ function happyHolidays() {
 
 function happyHolidaysTo(name) {
 //  var name = string
-  console.log('Happy holidays, you!')
+  console.log('Happy holidays, $name!')
   return '"Happy holidays, $name!"'
 }
 /*
@@ -19,4 +19,4 @@ function holidayCountdown(holiday, days) {
 }
  */
 happyHolidays
-happyHolidaysTo("you")
+happyHolidaysTo('you')
