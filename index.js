@@ -10,4 +10,4 @@ function happyHolidaysTo(string) {
 }
 
 happyHolidays
-happyHolidaysTo("Santa")
+happyHolidaysTo("you")
