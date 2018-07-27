@@ -17,9 +17,9 @@ function holidayCountdown(holiday, days) {
 }
  */
 
-console.log(happyHolidays)
+print(happyHolidays)
 
-happyHolidaysTo(you)
+happyHolidaysTo("you")
 
 var testname = "Santa"
 console.log($testname)
