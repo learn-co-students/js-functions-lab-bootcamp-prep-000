@@ -1,5 +1,5 @@
 // write your code below!
-
+console.log("my Funstions Lab")
 function happyHolidays() {
   return "Happy holidays!"
 }
