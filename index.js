@@ -35,7 +35,8 @@ main routine
 
 console.log("Starting Function Lab.") // DOES NOT DISPLAY
 
-happyHolidays() // Passed
+happyHolidays // Passes
+// happyHolidays() // Also PasseS
 
 // happyHolidaysTo() // passed with workaround active
 happyHolidaysTo("you") // fails
