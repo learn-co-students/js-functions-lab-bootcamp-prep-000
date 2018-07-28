@@ -37,7 +37,7 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 happyHolidays // Passed
 
 // happyHolidaysTo() // passed with workaround active
-var outName = "anyone"
+var outName = "you"
 happyHolidaysTo(outName) 
 
 /*
