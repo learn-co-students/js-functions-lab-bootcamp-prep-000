@@ -8,9 +8,9 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name="you") { 
-  if (name === "you") { // Passed when called with null argument
-    return "Happy holidays, you!"
-  }
+//  if (name === "you") { // Passed when called with null argument
+//    return "Happy holidays, you!"
+//  }
   return "Happy holidays, ${name}!" 
 }
 /*
