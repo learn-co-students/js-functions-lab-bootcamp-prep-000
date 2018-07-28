@@ -8,11 +8,11 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name="you") { 
-
+/*
   if (name === "you") { // Passed when argument is null or any string or number
     return "Happy holidays, you!"
   }
- 
+ */ 
   return "Happy holidays, ${name}!" // error wen argument is null or any string or number AND if is inactive
 }
 /*
