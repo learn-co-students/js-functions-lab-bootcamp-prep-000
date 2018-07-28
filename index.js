@@ -1,9 +1,11 @@
 // write your code below!
 /*
+My functions
+ */
 function happyHolidays() {
   return "Happy holidays!"
 }
-
+/*
 function happyHolidaysTo(name="you") {
   return "Happy holidays, ${name}"
 }
