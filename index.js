@@ -13,7 +13,7 @@ function happyHolidaysTo(name="you") {
     return "Happy holidays, you!"
   }
  */
-  return "Happy holidays, $name!" // error wen argument is null or any string AND if is inactive
+  return "Happy holidays, ${name}!" // error wen argument is null or any string AND if is inactive
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you") {
