@@ -7,15 +7,15 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name="you!") {
-  return "Happy holidays, you!"
-//  return "Happy holidays, ${name}"
+//  return "Happy holidays, you!" // hard-coded passed
+  return "Happy holidays, ${name}"
 }
 /*
-function happyHolidayTo(holiday="Independence Day", name="you") {
+function happyHolidayTo(holiday="Independence Day", name="you!") {
   return "Happy ${holiday}, ${name}!!"
 }
 
-function holidayCountdown(holiday="Mother\'s", days=20) { 
+function holidayCountdown(holiday="Mother\'s Day", days=20) { 
   return "It\'s ${days} days until${holiday}!"
 }
  */
