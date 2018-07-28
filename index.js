@@ -1,5 +1,5 @@
 // write your code below!
-"use strict"
+// "use strict"
 /*
 My functions
  */
