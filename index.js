@@ -19,11 +19,11 @@ function happyHolidaysTo(name="you") {
 function happyHolidayTo(holiday="Independence Day", name="you") {
   return "Happy ${holiday}, ${name}!"
 }
-/*
+
 function holidayCountdown(holiday="Mother\'s Day", days=20) { 
   return "It\'s ${days} days until${holiday}!"
 }
- */
+ 
 /*
 End of my functions
  */
