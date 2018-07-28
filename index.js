@@ -12,7 +12,7 @@ function happyHolidaysTo(name="you!") {
 //or
 //  return 'Happy holidays, you!'
 // Error when no argument and when argument = "you" or 'you'
-  return "Happy holidays, ${name}!" 
+//  return "Happy holidays, ${name}!" 
 //  return 'Happy holidays, ${name}!'
   return "'Happy holidays,' ${name}, '!'"
 }
