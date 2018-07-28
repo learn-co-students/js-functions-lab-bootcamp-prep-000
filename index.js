@@ -2,12 +2,13 @@
 /*
 My functions
  */
+
 function happyHolidays() {
   return "Happy holidays!"
 }
 
 function happyHolidaysTo(name="you") { 
-  if (name === "you") { // Passed
+  if (name === "you") { // Passed when called with null argument
     return "Happy holidays, you!"
   }
   return "Happy holidays, ${name}!" 
