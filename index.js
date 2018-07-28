@@ -7,6 +7,7 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name="you") {
+  var inName
   return "Happy holidays, ${name}"
 }
 /*
