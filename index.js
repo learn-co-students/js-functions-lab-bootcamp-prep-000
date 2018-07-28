@@ -6,10 +6,10 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(name) {
-// function happyHolidaysTo(name="you!") {
+function happyHolidaysTo(name) { // NOT PASSING
+// function happyHolidaysTo(name="you!") { // NOT PASSING
 // hard-coded passed
-//  return "Happy holidays, you!"
+  return "Happy holidays, you!"
 //or
 //  return 'Happy holidays, you!'
 // Error when no argument and when argument = "you" or 'you'
