@@ -13,8 +13,7 @@ function happyHolidaysTo(name="you") {
     return "Happy holidays, you!"
   }
  */
- var inName = name
-  return "Happy holidays, ${inName}!" // error wen argument is null or "you"
+  return "Happy holidays, ${name}!" // error wen argument is null or "you"
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you") {
@@ -38,7 +37,7 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 happyHolidays // Passed
 
 // happyHolidaysTo() // passed with workaround active
-happyHolidaysTo("me") 
+happyHolidaysTo("you") 
 
 /*
 happyHolidayTo("Independence Day", "you")
