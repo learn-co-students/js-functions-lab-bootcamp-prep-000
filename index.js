@@ -1,5 +1,5 @@
 // write your code below!
-
+/*
 function happyHolidays() {
   return "Happy holidays!"
 }
@@ -15,7 +15,7 @@ function happyHolidayTo(holiday="Independence Day", name="you") {
 function holidayCountdown(holiday="Mother\'s", days=20) { 
   return "It\'s ${days} days until${holiday}!"
 }
-
+ */
 
 var testname = "Santa"
 console.log($testname) // NOT DISPLAYED
