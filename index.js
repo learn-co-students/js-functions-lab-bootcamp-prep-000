@@ -9,11 +9,11 @@ function happyHolidays() {
 
 // ALL of these have Error: expected ne actual
 function happyHolidaysTo(name="you") { 
-/* workaround that clears Error when active 
+// /* workaround that clears Error when active 
   if (name === "you") { // Passed when argument is null or any string or number
     return "Happy holidays, you!"
   }
- */ 
+// */ 
   return "Happy holidays, ${name}!" 
 }
 
