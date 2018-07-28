@@ -6,7 +6,7 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(name)
+function happyHolidaysTo(name) {
 // function happyHolidaysTo(name="you!") {
 // hard-coded passed
 //  return "Happy holidays, you!"
