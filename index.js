@@ -6,12 +6,12 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(name) { // NOT PASSING
+// function happyHolidaysTo(name) { // NOT PASSING
 // function happyHolidaysTo(string) { 
 //  var name = string
-// function happyHolidaysTo(name="you") { // NOT PASSING
+ function happyHolidaysTo(name="you") { // NOT PASSING
 // hard-coded passed WITH EITHER DECLARATION
-  if (name === "me") {
+  if (name === "you") {
     return "Happy holidays, you!"
   }
 //or
@@ -46,8 +46,8 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 
 happyHolidays
 
-// happyHolidaysTo()
- happyHolidaysTo("you") 
+happyHolidaysTo()
+// happyHolidaysTo("you") 
 
 /*
 happyHolidayTo("Independence Day", "you")
