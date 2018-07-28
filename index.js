@@ -8,10 +8,12 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name="you") { 
-//  if (name === "you") { // Passed when called with null argument
-//    return "Happy holidays, you!"
-//  }
-  return "Happy holidays, ${name}!" 
+
+  if (name === "you") { // Passed when argument is null
+    return "Happy holidays, you!"
+  }
+  
+//  return "Happy holidays, ${name}!" // error wen argument is null or "you"
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you") {
@@ -34,7 +36,7 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 
 happyHolidays // Passed
 
-// happyHolidaysTo() // passed with workaround
+// happyHolidaysTo() // passed with workaround active
 happyHolidaysTo("you") 
 
 /*
