@@ -12,9 +12,8 @@ function happyHolidaysTo(name="you!") {
 //or
 //  return 'Happy holidays, you!'
 // Error when no argument and when argument = "you" or 'you'
-//  return "Happy holidays, ${name}!" 
+  return "Happy holidays, ${name}!" 
 //  return 'Happy holidays, ${name}!'
-  return "'Happy holidays,' ${name}, '!'"
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you!") {
@@ -25,15 +24,15 @@ function holidayCountdown(holiday="Mother\'s Day", days=20) {
   return "It\'s ${days} days until${holiday}!"
 }
  */
-
+/*
 var testname = "Santa"
 console.log($testname) // NOT DISPLAYED
 console.log("this is my,$testname") // NOT DISPLAYED
 
 console.log("Starting Function Lab.") // NOT DISPLAYED
-
+ */
 happyHolidays
-happyHolidaysTo("you")
+// happyHolidaysTo()
 // happyHolidaysTo("you")
 /*
 happyHolidayTo("Independence Day", "you")
