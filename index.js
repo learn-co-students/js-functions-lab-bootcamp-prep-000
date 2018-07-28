@@ -44,8 +44,8 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 
 happyHolidays
 
- happyHolidaysTo()
-// happyHolidaysTo("you") 
+// happyHolidaysTo()
+ happyHolidaysTo("you") 
 
 /*
 happyHolidayTo("Independence Day", "you")
