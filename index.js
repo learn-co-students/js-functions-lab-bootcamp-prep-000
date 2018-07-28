@@ -8,7 +8,7 @@ function happyHolidays() {
 
 function happyHolidaysTo(name) { // NOT PASSING
 // function happyHolidaysTo(name="you!") { // NOT PASSING
-// hard-coded passed
+// hard-coded passed WITH EITHER DECLARATION
   return "Happy holidays, you!"
 //or
 //  return 'Happy holidays, you!'
