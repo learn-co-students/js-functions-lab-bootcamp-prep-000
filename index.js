@@ -26,7 +26,7 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 
 happyHolidays
 happyHolidaysTo("you")
-happyHolidayTo("Blue Moon Day", "Blues Brothers")
+happyHolidayTo("Independence Day", "you")
 holidayCountdown("Mother\'s Day", "20")
 
 console.log("Finished Function Lab.") // NOT DISPLAYED
