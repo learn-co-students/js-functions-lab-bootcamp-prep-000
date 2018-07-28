@@ -32,9 +32,9 @@ main routine
 
 console.log("Starting Function Lab.") // NOT DISPLAYED
 
-happyHolidays
+happyHolidays // Passed
 
-happyHolidaysTo()
+happyHolidaysTo() // passed with workaround
 // happyHolidaysTo("you") 
 
 /*
