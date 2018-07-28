@@ -34,7 +34,7 @@ main routine
  */
 
 console.log("Starting Function Lab.") // DOES NOT DISPLAY
-/*
+/* NOTE: passing and failing OCCUR VIA learn WITHOUT CALLING THE FUNCTIONS
 happyHolidays // Passes
 // happyHolidays() // Also PasseS
  
