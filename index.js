@@ -9,11 +9,11 @@ function happyHolidays() {
 
 // ALL of these have Error: expected ne actual
 function happyHolidaysTo(name="you") { 
-// /* workaround that clears Error when active 
+/* workaround that clears Error when active 
   if (name === "you") { // Passed when argument is null or any string or number
     return "Happy holidays, you!"
   }
-// */ 
+*/ 
   return "Happy holidays, ${name}!" 
 }
 
@@ -38,11 +38,11 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 happyHolidays // Passed
 
 // happyHolidaysTo() // passed with workaround active
-happyHolidaysTo("you")
+happyHolidaysTo("you") // fails
 
-happyHolidayTo("Independence Day", "you")
+happyHolidayTo("Independence Day", "you") // fails
 
-holidayCountdown("Mother\'s Day", "20")
+holidayCountdown("Mother\'s Day", "20") // fails
  
 
 console.log("Finished Function Lab.") // NOT DISPLAYED
