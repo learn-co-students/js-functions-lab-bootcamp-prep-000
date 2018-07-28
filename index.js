@@ -20,7 +20,7 @@ function happyHolidayTo(holiday="Independence Day", name="you") {
   return "Happy ${holiday}, ${name}!"
 }
 
-function holidayCountdown(holiday="Mother\'s Day", days=20) { 
+function holidayCountdown(holiday="Mother\'s Day", days="20") { 
   return "It\'s ${days} days until${holiday}!"
 }
  
@@ -40,9 +40,9 @@ happyHolidays // Passed
 happyHolidaysTo("you")
 
 happyHolidayTo("Independence Day", "you")
-/*
+
 holidayCountdown("Mother\'s Day", "20")
- */
+ 
 
 console.log("Finished Function Lab.") // NOT DISPLAYED
 
