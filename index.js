@@ -38,7 +38,7 @@ happyHolidays // Passed
 
 // happyHolidaysTo() // passed with workaround active
 var outName = "anyone"
-happyHolidaysTo(anyone) 
+happyHolidaysTo(outName) 
 
 /*
 happyHolidayTo("Independence Day", "you")
