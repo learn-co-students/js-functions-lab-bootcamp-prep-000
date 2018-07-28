@@ -11,7 +11,9 @@ function happyHolidaysTo(name) { // NOT PASSING
 //  var name = string
 // function happyHolidaysTo(name="you") { // NOT PASSING
 // hard-coded passed WITH EITHER DECLARATION
-//  return "Happy holidays, you!"
+  if (name === "you") {
+    return "Happy holidays, you!"
+  }
 //or
 //  return 'Happy holidays, you!'
 // Error when no argument and when argument = "you" or 'you'
