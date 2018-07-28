@@ -14,6 +14,7 @@ function happyHolidaysTo(name="you!") {
 // Error when no argument and when argument = "you" or 'you'
   return "Happy holidays, ${name}!" 
 //  return 'Happy holidays, ${name}!'
+  return "'Happy holidays,' ${name}, '!'"
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you!") {
