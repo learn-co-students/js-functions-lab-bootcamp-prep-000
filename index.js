@@ -6,9 +6,9 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(name="you!") {
+function happyHolidaysTo(name='you!') {
 //  return "Happy holidays, you!" // hard-coded passed
-  return 'Happy holidays, ${name}' // Error when no argument and argument = "you" or 'you'
+  return 'Happy holidays, ${name}' // Error when no argument and when argument = "you" or 'you'
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you!") {
@@ -27,7 +27,7 @@ console.log("this is my,$testname") // NOT DISPLAYED
 console.log("Starting Function Lab.") // NOT DISPLAYED
 
 happyHolidays
-happyHolidaysTo('you')
+happyHolidaysTo()
 // happyHolidaysTo("you")
 /*
 happyHolidayTo("Independence Day", "you")
