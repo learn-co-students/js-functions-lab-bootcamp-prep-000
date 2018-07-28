@@ -6,9 +6,9 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-// function happyHolidaysTo(name) { // NOT PASSING
-function happyHolidaysTo(string) { 
-  var name = string
+function happyHolidaysTo(name) { // NOT PASSING
+// function happyHolidaysTo(string) { 
+//  var name = string
 // function happyHolidaysTo(name="you") { // NOT PASSING
 // hard-coded passed WITH EITHER DECLARATION
 //  return "Happy holidays, you!"
@@ -43,10 +43,10 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
  */
 
 happyHolidays
-/*
-// happyHolidaysTo()
+
+ happyHolidaysTo()
 // happyHolidaysTo("you") 
- */
+
 /*
 happyHolidayTo("Independence Day", "you")
 holidayCountdown("Mother\'s Day", "20")
