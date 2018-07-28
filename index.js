@@ -15,11 +15,11 @@ function happyHolidaysTo(name="you") {
  */ 
   return "Happy holidays, ${name}!" // error wen argument is null or any string or number AND if is inactive
 }
-/*
+
 function happyHolidayTo(holiday="Independence Day", name="you") {
   return "Happy ${holiday}, ${name}!"
 }
-
+/*
 function holidayCountdown(holiday="Mother\'s Day", days=20) { 
   return "It\'s ${days} days until${holiday}!"
 }
