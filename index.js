@@ -9,8 +9,8 @@ function happyHolidays() {
 }
 
 // ALL of these have Error: expected ne actual
-function happyHolidaysTo(name) {
-// function happyHolidaysTo(name="you") { 
+// function happyHolidaysTo(name) {
+function happyHolidaysTo(name="you") { 
 /* clears Error when active 
   if (name === "you") { // Passed when argument is null or any string or number
     return "Happy holidays, you!"
