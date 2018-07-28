@@ -5,11 +5,11 @@ My functions
 function happyHolidays() {
   return "Happy holidays!"
 }
-/*
+
 function happyHolidaysTo(name="you") {
   return "Happy holidays, ${name}"
 }
-
+/*
 function happyHolidayTo(holiday="Independence Day", name="you") {
   return "Happy ${holiday}, ${name}!!"
 }
