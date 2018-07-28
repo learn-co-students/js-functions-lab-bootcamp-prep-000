@@ -7,10 +7,14 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name='you!') {
-//  return "Happy holidays, you!" // hard-coded passed
-  return 'Happy holidays, you!'
-//  return 'Happy holidays, ${name}!' // Error when no argument and when argument = "you" or 'you'
-  return 'Happy holidays, ${name}!'
+//  return "Happy holidays, you!" 
+// hard-coded passed
+//  return "Happy holidays, you!"
+//or
+//  return 'Happy holidays, you!'
+// Error when no argument and when argument = "you" or 'you'
+  return "Happy holidays, ${name}!" 
+//  return 'Happy holidays, ${name}!'
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you!") {
