@@ -13,7 +13,8 @@ function happyHolidaysTo(name="you") {
     return "Happy holidays, you!"
   }
  */
-  return "Happy holidays, ${name}!" // error wen argument is null or "you"
+ var inName = name
+  return "Happy holidays, ${inName}!" // error wen argument is null or "you"
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you") {
