@@ -37,7 +37,7 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 happyHolidays // Passed
 
 // happyHolidaysTo() // passed with workaround active
-happyHolidaysTo("anyone") 
+happyHolidaysTo("you") 
 
 /*
 happyHolidayTo("Independence Day", "you")
