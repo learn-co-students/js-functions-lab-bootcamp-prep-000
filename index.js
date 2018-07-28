@@ -37,14 +37,14 @@ console.log("Starting Function Lab.") // DOES NOT DISPLAY
 /*
 happyHolidays // Passes
 // happyHolidays() // Also PasseS
- */
+ 
 // happyHolidaysTo() // passed with workaround active
 happyHolidaysTo("you") // fails
 
 happyHolidayTo("Independence Day", "you") // fails
 
 holidayCountdown("Mother\'s Day", "20") // fails
- 
+ */
 
 console.log("Finished Function Lab.") // DOES NOT DISPLAY
 
