@@ -6,19 +6,11 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-// function happyHolidaysTo(name) { // NOT PASSING
-// function happyHolidaysTo(string) { 
-//  var name = string
- function happyHolidaysTo(name="you") { // NOT PASSING
-// hard-coded passed WITH EITHER DECLARATION
-  if (name === "you") {
+function happyHolidaysTo(name="you") { 
+  if (name === "you") { // Passed
     return "Happy holidays, you!"
   }
-//or
-//  return 'Happy holidays, you!'
-// Error when no argument and when argument = "you" or 'you'
   return "Happy holidays, ${name}!" 
-//  return 'Happy holidays, ${name}!'
 }
 /*
 function happyHolidayTo(holiday="Independence Day", name="you!") {
@@ -36,13 +28,8 @@ End of my functions
 /*
 main routine
  */
-/*
-var testname = "Santa"
-console.log($testname) // NOT DISPLAYED
-console.log("this is my,$testname") // NOT DISPLAYED
 
 console.log("Starting Function Lab.") // NOT DISPLAYED
- */
 
 happyHolidays
 
