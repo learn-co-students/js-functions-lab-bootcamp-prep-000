@@ -6,8 +6,7 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(name='you!') {
-//  return "Happy holidays, you!" 
+function happyHolidaysTo(name="you!") {
 // hard-coded passed
 //  return "Happy holidays, you!"
 //or
