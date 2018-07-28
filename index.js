@@ -26,6 +26,13 @@ function holidayCountdown(holiday="Mother\'s Day", days=20) {
 }
  */
 /*
+End of my functions
+ */
+ 
+/*
+main routine
+ */
+/*
 var testname = "Santa"
 console.log($testname) // NOT DISPLAYED
 console.log("this is my,$testname") // NOT DISPLAYED
@@ -45,3 +52,6 @@ holidayCountdown("Mother\'s Day", "20")
 
 console.log("Finished Function Lab.") // NOT DISPLAYED
 
+/*
+End of main routine
+ */
