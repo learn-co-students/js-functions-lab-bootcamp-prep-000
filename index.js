@@ -31,9 +31,11 @@ console.log("this is my,$testname") // NOT DISPLAYED
 
 console.log("Starting Function Lab.") // NOT DISPLAYED
  */
+/*
 happyHolidays
 // happyHolidaysTo()
-// happyHolidaysTo("you")
+// happyHolidaysTo("you") 
+ */
 /*
 happyHolidayTo("Independence Day", "you")
 holidayCountdown("Mother\'s Day", "20")
