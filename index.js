@@ -9,7 +9,7 @@ function happyHolidays() {
 
 function happyHolidaysTo(name="you") { 
 
-  if (name === "you") { // Passed when argument is null or any string
+  if (name === "you") { // Passed when argument is null or any string or number
     return "Happy holidays, you!"
   }
  
@@ -37,7 +37,7 @@ console.log("Starting Function Lab.") // NOT DISPLAYED
 happyHolidays // Passed
 
 // happyHolidaysTo() // passed with workaround active
-happyHolidaysTo(777) 
+happyHolidaysTo(anyone) 
 
 /*
 happyHolidayTo("Independence Day", "you")
