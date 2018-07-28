@@ -7,13 +7,14 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
+// ALL of these have Error: expected ne actual
 function happyHolidaysTo(name="you") { 
-/*
+/* workaround that clears Error when active 
   if (name === "you") { // Passed when argument is null or any string or number
     return "Happy holidays, you!"
   }
  */ 
-  return "Happy holidays, ${name}!" // error wen argument is null or any string or number AND if is inactive
+  return "Happy holidays, ${name}!" 
 }
 
 function happyHolidayTo(holiday="Independence Day", name="you") {
