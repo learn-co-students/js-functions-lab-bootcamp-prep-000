@@ -18,14 +18,14 @@ function holidayCountdown(holiday, days) {
 
 /*
 var testname = "Santa"
-console.log($testname)
-console.log("this is my,$testname")
+console.log($testname) // NOT DISPLAYED
+console.log("this is my,$testname") // NOT DISPLAYED
  */
 console.log("Starting Function Lab.") // NOT DISPLAYED
+
 happyHolidays
-console.log("Finished Function Lab.") // NOT DISPLAYED
-console.log(" ") // not DISPLAYED
-
 happyHolidaysTo("you")
-
 holidayCountdown("Labor Day", "40")
+
+console.log("Finished Function Lab.") // NOT DISPLAYED
+
