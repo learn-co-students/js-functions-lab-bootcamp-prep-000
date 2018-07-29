@@ -19,10 +19,11 @@ function happyHolidaysTo(name="you") {
   return "Happy holidays, ${name}!" 
 }
 
-function happyHolidayTo(holiday="Independence Day", name="you") {
+function happyHolidayTo(holiday='Independence Day', name='you') {
 // this if statement clears Error when active 
-  if (holiday === "Independence Day" && name === "you") { 
-    return "Happy Independence Day, you!"
+  if (holiday === 'Independence Day' && name === 'you') { 
+    return "Happy ${holiday}, ${name}!"
+//    return "Happy Independence Day, you!"
   }
 
   return "Happy ${holiday}, ${name}!"
