@@ -9,15 +9,16 @@ function happyHolidays() {
 }
 
 // ALL 3 of these functions have Error: expected ne actual
+
 // function happyHolidaysTo(name) {
 function happyHolidaysTo(name='you') { 
 // this if statement clears Error when active 
-// /*
+/*
   if (name === 'you') { 
 //    return "Happy holidays, ${name}!"
     return 'Happy holidays, you!'
   }
-//  */
+ */
   return "Happy holidays, ${name}!"
 }
 
