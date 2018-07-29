@@ -11,6 +11,7 @@ function happyHolidays() { // passes
 
 function happyHolidaysTo(string) {
 // function happyHolidaysTo(name='you') { 
+  var name = string
 /*
 // this if statement clears Error when active with either declaration
   if (name === 'you') { 
