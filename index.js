@@ -4,7 +4,7 @@
 My functions
  */
 
-function happyHolidays() {
+function happyHolidays() { // passes
   return 'Happy holidays!'
 }
 
