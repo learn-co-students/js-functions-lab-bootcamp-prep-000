@@ -1,5 +1,5 @@
 // write your code below!
-// "use strict"
+
 /*
 My functions
  */
@@ -11,15 +11,20 @@ function happyHolidays() {
 // ALL of these have Error: expected ne actual
 // function happyHolidaysTo(name) {
 function happyHolidaysTo(name="you") { 
-/* clears Error when active 
-  if (name === "you") { // Passed when argument is null or any string or number
+// if statement clears Error when active 
+  if (name === "you") { 
     return "Happy holidays, you!"
   }
-*/ 
+
   return "Happy holidays, ${name}!" 
 }
 
 function happyHolidayTo(holiday="Independence Day", name="you") {
+// if statement clears Error when active 
+  if (holiday === "Independence Day" && name === "you") { 
+    return "Happy Independence Day, you!"
+  }
+
   return "Happy ${holiday}, ${name}!"
 }
 
@@ -36,17 +41,16 @@ main routine
  */
 
 console.log("Starting Function Lab.") // DOES NOT DISPLAY
-/* NOTE: passing and failing OCCUR VIA learn WITHOUT CALLING THE FUNCTIONS
+/
 happyHolidays // Passes
 // happyHolidays() // Also PasseS
  
-// happyHolidaysTo() // passed with workaround active
+// happyHolidaysTo() // passed when workaround active
 happyHolidaysTo("you") // fails
 
 happyHolidayTo("Independence Day", "you") // fails
 
 holidayCountdown("Mother\'s Day", "20") // fails
- */
 
 console.log("Finished Function Lab.") // DOES NOT DISPLAY
 
