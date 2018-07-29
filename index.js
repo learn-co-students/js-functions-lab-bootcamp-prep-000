@@ -63,8 +63,8 @@ happyHolidaysTo('you') // passes when workaround is active
 happyHolidayTo()
 // happyHolidayTo('Independence Day', 'you') // passes when workaround is active
 
-// holidayCountdown()
-holidayCountdown('Mother\'s Day', 20) // passes when workaround is active
+holidayCountdown()
+// holidayCountdown('Mother\'s Day', 20) // passes when workaround is active
 
 console.log("Finished Function Lab.") // DOES NOT DISPLAY
 
