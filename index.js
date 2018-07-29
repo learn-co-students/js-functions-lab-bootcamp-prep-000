@@ -62,6 +62,7 @@ happyHolidays() // Also passes
  
 happyHolidaysTo // passes when workaround is active
 happyHolidaysTo('you') // passes when workaround is active
+happyHolidaysTo('Douglas')
 
 // happyHolidayTo() // passes when workaround is active
 happyHolidayTo('Independence Day', 'you') // passes when workaround is active
