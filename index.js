@@ -11,13 +11,13 @@ function happyHolidays() { // passes
 
 function happyHolidaysTo(name) {
 // function happyHolidaysTo(name='you') { 
-
+/*
 // this if statement clears Error when active with either declaration
   if (name === 'you') { 
 //    return "Happy holidays, ${name}!" // fails
     return 'Happy holidays, you!'
   }
- 
+ */ 
   return "Happy holidays, ${name}!"
 } 
 
