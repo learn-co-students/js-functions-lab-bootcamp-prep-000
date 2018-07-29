@@ -28,7 +28,7 @@ function happyHolidayTo(holiday="Independence Day", name="you") {
   return "Happy ${holiday}, ${name}!"
 }
 
-function holidayCountdown(holiday="Mother\'s Day", days="20") { 
+function holidayCountdown(holiday="Mother\'s Day", day="20") { 
 // if statement clears Error when active 
   if (holiday === "Mother\'s Day" && day === "20") { 
     return "Happy Mother\'s Day, you!"
