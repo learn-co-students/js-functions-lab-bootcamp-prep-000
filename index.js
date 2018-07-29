@@ -17,7 +17,7 @@ function happyHolidaysTo(name='you') {
     return 'Happy holidays, you!'
   }
 
-  return 'Happy holidays, ${name}!'
+  return "Happy holidays, ${name}!"
 }
 
 function happyHolidayTo(holiday='Independence Day', name='you') {
@@ -27,7 +27,7 @@ function happyHolidayTo(holiday='Independence Day', name='you') {
     return 'Happy Independence Day, you!'
   }
 
-  return 'Happy ${holiday}, ${name}!'
+  return "Happy ${holiday}, ${name}!"
 }
 
 function holidayCountdown(holiday='Mother\'s Day', days=20) { 
@@ -36,8 +36,8 @@ function holidayCountdown(holiday='Mother\'s Day', days=20) {
   if (holiday === 'Mother\'s Day' && days === 20) { 
     return "It\'s 20 days until Mother\'s Day!"
   }
-// */
-  return 'It\'s ${days} days until ${holiday}!'
+//  */
+  return "It\'s ${days} days until ${holiday}!"
 }
  
 /*
