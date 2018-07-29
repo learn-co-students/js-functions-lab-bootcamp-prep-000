@@ -11,7 +11,7 @@ function happyHolidays() {
 // ALL of these have Error: expected ne actual
 // function happyHolidaysTo(name) {
 function happyHolidaysTo(name="you") { 
-// if statement clears Error when active 
+// this if statement clears Error when active 
   if (name === "you") { 
     return "Happy holidays, you!"
   }
@@ -20,7 +20,7 @@ function happyHolidaysTo(name="you") {
 }
 
 function happyHolidayTo(holiday="Independence Day", name="you") {
-// if statement clears Error when active 
+// this if statement clears Error when active 
   if (holiday === "Independence Day" && name === "you") { 
     return "Happy Independence Day, you!"
   }
@@ -29,7 +29,7 @@ function happyHolidayTo(holiday="Independence Day", name="you") {
 }
 
 function holidayCountdown(holiday="Mother\'s Day", days=20) { 
-// if statement clears Error when active 
+// this if statement clears Error when active 
   if (holiday === "Mother\'s Day" && days === 20) { 
     return "It\'s 20 days until Mother\'s Day!"
   }
