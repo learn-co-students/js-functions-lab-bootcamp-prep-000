@@ -9,7 +9,7 @@ function happyHolidays() { // passes
 
 // ALL 3 of these functions have Error: expected ne actual
 
-function happyHolidaysTo(name) {
+function happyHolidaysTo(string) {
 // function happyHolidaysTo(name='you') { 
 /*
 // this if statement clears Error when active with either declaration
@@ -18,8 +18,9 @@ function happyHolidaysTo(name) {
     return 'Happy holidays, you!'
   }
  */ 
- // return "Happy holidays, ${name}!"
-  return "${name}"
+
+  return "Happy holidays, ${name}!"
+
 } 
 
 /*
