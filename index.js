@@ -39,7 +39,11 @@ function holidayCountdown(holiday, days) {
 // this if statement clears Error when active with either declaration
 /*
   if (holiday === 'Mother\'s Day' && days === 20) { 
+<<<<<<< HEAD
 //    return "It\'s ${days} days until ${holiday}!" // fails
+=======
+    return "It\'s ${days} days until ${holiday}!"
+>>>>>>> 66663c27c844f281096809842af27764237d46c5
     return "It\'s 20 days until Mother\'s Day!"
   }
  */
