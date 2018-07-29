@@ -5,7 +5,7 @@ My functions
  */
 
 function happyHolidays() {
-  return "Happy holidays!"
+  return 'Happy holidays!'
 }
 
 // ALL 3 of these functions have Error: expected ne actual
