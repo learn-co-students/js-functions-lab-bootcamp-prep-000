@@ -31,7 +31,7 @@ function happyHolidayTo(holiday="Independence Day", name="you") {
 function holidayCountdown(holiday="Mother\'s Day", days=20) { 
 // if statement clears Error when active 
   if (holiday === "Mother\'s Day" && days === 20) { 
-    return "It\'s 29 days until Mother\'s Day!"
+    return "It\'s 20 days until Mother\'s Day!"
   }
   
   return "It\'s ${days} days until${holiday}!"
