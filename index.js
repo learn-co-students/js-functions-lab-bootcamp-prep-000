@@ -29,13 +29,14 @@ function happyHolidayTo(holiday='Independence Day', name='you') {
     return 'Happy Independence Day, you!'
   }
 //  */
-  return "Happy ${holiday}, ${name}!"
+  return "Happy ${holiday}, ${name}!" 
 }
 
 function holidayCountdown(holiday='Mother\'s Day', days=20) { 
 // this if statement clears Error when active 
 // /*
   if (holiday === 'Mother\'s Day' && days === 20) { 
+//    return "It\'s ${days} days until ${holiday}!" // fails
     return "It\'s 20 days until Mother\'s Day!"
   }
 //  */
