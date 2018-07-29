@@ -47,15 +47,15 @@ main routine
 
 console.log("Starting Function Lab.") // DOES NOT DISPLAY
 /
-happyHolidays // Passes
-// happyHolidays() // Also PasseS
+happyHolidays // passes
+// happyHolidays() // Also passes
  
 // happyHolidaysTo() // passes when workaround is  active
-happyHolidaysTo("you") // // passes when workaround is  active
+happyHolidaysTo("you") // passes when workaround is  active
 
-happyHolidayTo("Independence Day", "you") // // passes when workaround is  active
+happyHolidayTo("Independence Day", "you") // passes when workaround is  active
 
-holidayCountdown("Mother\'s Day", "20") // // passes when workaround is  active
+holidayCountdown("Mother\'s Day", "20") // passes when workaround is  active
 
 console.log("Finished Function Lab.") // DOES NOT DISPLAY
 
