@@ -14,7 +14,7 @@ function happyHolidaysTo(name='you') {
 // this if statement clears Error when active 
 // /*
   if (name === 'you') { 
-    
+//    return "Happy holidays, ${name}!"
     return 'Happy holidays, you!'
   }
 //  */
