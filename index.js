@@ -60,7 +60,7 @@ console.log("Starting Function Lab.") // DOES NOT DISPLAY
 happyHolidays // passes
 happyHolidays() // Also passes
  
-happyHolidaysTo() // passes when workaround is active
+happyHolidaysTo // passes when workaround is active
 // happyHolidaysTo('you') // passes when workaround is active
 
 // happyHolidayTo() // passes when workaround is active
