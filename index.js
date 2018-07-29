@@ -13,20 +13,21 @@ function happyHolidays() {
 function happyHolidaysTo(name='you') { 
 // this if statement clears Error when active 
   if (name === 'you') { 
-    return "Happy holidays, you!"
+    
+    return 'Happy holidays, you!'
   }
 
-  return "Happy holidays, ${name}!" 
+  return 'Happy holidays, ${name}!'
 }
 
 function happyHolidayTo(holiday='Independence Day', name='you') {
 // this if statement clears Error when active 
   if (holiday === 'Independence Day' && name === 'you') { 
-    return "Happy ${holiday}, ${name}!" // fails
-//    return "Happy Independence Day, you!"
+//    return "Happy ${holiday}, ${name}!" // fails
+    return 'Happy Independence Day, you!'
   }
 
-  return "Happy ${holiday}, ${name}!"
+  return 'Happy ${holiday}, ${name}!'
 }
 
 function holidayCountdown(holiday='Mother\'s Day', days=20) { 
