@@ -1,16 +1,21 @@
 // write your code below!
+/*
+My global variables
+ */
+ 
+// var name = 'you'
 
 /*
 My functions
  */
-
+/*
 function happyHolidays() { // passes
   return 'Happy holidays!'
 }
 
 // ALL 3 of these functions have Error: expected ne actual
 
-function happyHolidaysTo(name) {
+function happyHolidaysTo {
 // function happyHolidaysTo(name='you') { 
 // this if statement clears Error when active with either declaration
 /*
@@ -21,7 +26,7 @@ function happyHolidaysTo(name) {
  */
   return "Happy holidays, ${name}!"
 }
-
+// /*
 function happyHolidayTo(holiday, name) {
 // function happyHolidayTo(holiday='Independence Day', name='you') { 
 // this if statement clears Error when active with either declaration
@@ -45,7 +50,7 @@ function holidayCountdown(holiday, days) {
  */
   return "It\'s ${days} days until ${holiday}!"
 }
- 
+*/ 
 /*
 End of my functions
  */
@@ -53,7 +58,7 @@ End of my functions
 /*
 main routine
  */
-
+/*
 console.log("Starting Function Lab.") // DOES NOT DISPLAY
 
 happyHolidays // passes
@@ -69,7 +74,7 @@ happyHolidayTo('Independence Day', 'you') // passes when workaround is active
 holidayCountdown('Mother\'s Day', 20) // passes when workaround is active
 
 console.log("Finished Function Lab.") // DOES NOT DISPLAY
-
+ */
 /*
 End of main routine
  */
