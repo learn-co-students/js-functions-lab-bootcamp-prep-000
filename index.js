@@ -10,8 +10,8 @@ function happyHolidays() {
 
 // ALL 3 of these functions have Error: expected ne actual
 
-function happyHolidaysTo(name) {
-// function happyHolidaysTo(name='you') { 
+// function happyHolidaysTo(name) {
+function happyHolidaysTo(name='you') { 
 // this if statement clears Error when active with either declaration
 /*
   if (name === 'you') { 
@@ -59,8 +59,8 @@ console.log("Starting Function Lab.") // DOES NOT DISPLAY
 happyHolidays // passes
 // happyHolidays() // Also passes
  
-// happyHolidaysTo() // passes when workaround is active
-happyHolidaysTo('you') // passes when workaround is active
+happyHolidaysTo('') // passes when workaround is active
+// happyHolidaysTo('you') // passes when workaround is active
 
 // happyHolidayTo() // passes when workaround is active
 happyHolidayTo('Independence Day', 'you') // passes when workaround is active
