@@ -13,36 +13,36 @@ function happyHolidays() {
 function happyHolidaysTo(name) {
 // function happyHolidaysTo(name='you') { 
 // this if statement clears Error when active with either declaration
-// /*
+/*
   if (name === 'you') { 
 //    return "Happy holidays, ${name}!" // fails
     return 'Happy holidays, you!'
   }
-// */
+ */
   return "Happy holidays, ${name}!"
 }
 
 function happyHolidayTo(holiday, name) {
 // function happyHolidayTo(holiday='Independence Day', name='you') { 
 // this if statement clears Error when active with either declaration
-// /*
+/*
   if (holiday === 'Independence Day' && name === 'you') { 
 //    return "Happy ${holiday}, ${name}!" // fails
     return 'Happy Independence Day, you!'
   }
-//  */
+ */
   return "Happy ${holiday}, ${name}!" 
 }
 
 function holidayCountdown(holiday, days) {
 // function holidayCountdown(holiday='Mother\'s Day', days=20) { 
 // this if statement clears Error when active with either declaration
-// /*
+/*
   if (holiday === 'Mother\'s Day' && days === 20) { 
 //    return "It\'s ${days} days until ${holiday}!" // fails
     return "It\'s 20 days until Mother\'s Day!"
   }
-//  */
+ */
   return "It\'s ${days} days until ${holiday}!"
 }
  
