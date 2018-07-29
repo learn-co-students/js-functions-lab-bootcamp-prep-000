@@ -1,11 +1,5 @@
 // write your code below!
 /*
-My global variables
- */
- 
-// var name = 'you'
-
-/*
 My functions
  */
 
@@ -60,7 +54,7 @@ End of my functions
 /*
 main routine
  */
-/*
+
 console.log("Starting Function Lab.") // DOES NOT DISPLAY
 
 happyHolidays // passes
@@ -76,7 +70,7 @@ happyHolidayTo('Independence Day', 'you') // passes when workaround is active
 holidayCountdown('Mother\'s Day', 20) // passes when workaround is active
 
 console.log("Finished Function Lab.") // DOES NOT DISPLAY
- */
+
 /*
 End of main routine
  */
