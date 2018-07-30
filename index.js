@@ -47,12 +47,12 @@ End of my functions
 main routine
  */
 
-console.log("Starting Function Lab.") // DOES NOT DISPLAY
+console.log('Starting Function Lab.') // DOES NOT DISPLAY
 
 happyHolidays 
 happyHolidays() 
  
-happyHolidaysTo 
+happyHolidaysTo()
 happyHolidaysTo('you') 
 happyHolidaysTo('me') 
 
@@ -62,7 +62,7 @@ happyHolidayTo('Independence Day', 'you')
 holidayCountdown() 
 holidayCountdown('Mother\'s Day', 20) 
 
-console.log("Finished Function Lab.") // DOES NOT DISPLAY
+console.log('Finished Function Lab.') // DOES NOT DISPLAY
 
 /*
 End of main routine
