@@ -52,14 +52,14 @@ console.log('Starting Function Lab.') // DOES NOT DISPLAY
 happyHolidays 
 happyHolidays() 
  
-happyHolidaysTo()
+// happyHolidaysTo()
 happyHolidaysTo('you') 
-happyHolidaysTo('me') 
+// happyHolidaysTo('me') 
 
-happyHolidayTo() 
+// happyHolidayTo() 
 happyHolidayTo('Independence Day', 'you') 
 
-holidayCountdown() 
+// holidayCountdown() 
 holidayCountdown('Mother\'s Day', 20) 
 
 console.log('Finished Function Lab.') // DOES NOT DISPLAY
