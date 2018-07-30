@@ -33,11 +33,12 @@ function happyHolidayTo(holiday, name) {
 
 function holidayCountdown(holiday, days) {
 /*
-// function holidayCountdown(holiday='Mother\'s Day', days=20) { // used with if to confirm parameter assignment since console.log is not working
-  if (holiday === 'Mother\'s Day' && days === 20) { 
+// function holidayCountdown(holiday='Mother\'s Day', days=20) { 
+ */
+  if (holiday === 'Mother\'s Day' && days === 20) { // used with if to confirm parameter assignment since console.log is not working
     return "It\'s 20 days until Mother\'s Day!"
   }
- */
+
   return "It\'s ${days} days until ${holiday}!"
 }
 
