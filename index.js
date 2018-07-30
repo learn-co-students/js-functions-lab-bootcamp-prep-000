@@ -3,7 +3,7 @@
 My functions
  */
 
-function happyHolidays() { // passes
+function happyHolidays() { 
   return 'Happy holidays!'
 }
 
@@ -23,7 +23,6 @@ function happyHolidayTo(holiday, name) {
 /*
 // function happyHolidayTo(holiday='Independence Day', name='you') { // used with if to confirm parameter assignment since console.log is not working
   if (holiday === 'Independence Day' && name === 'you') { 
-//    return "Happy ${holiday}, ${name}!" // fails
     return 'Happy Independence Day, you!'
   }
  */
@@ -50,8 +49,8 @@ main routine
 
 console.log("Starting Function Lab.") // DOES NOT DISPLAY
 
-happyHolidays // passes
-happyHolidays() // Also passes
+happyHolidays 
+happyHolidays() 
  
 happyHolidaysTo 
 happyHolidaysTo('you') 
