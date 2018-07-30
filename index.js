@@ -14,9 +14,8 @@ function happyHolidaysTo(name) {
 function happyHolidaysTo(name='you') { 
  */
   if (name === 'you') { // used with if to confirm parameter assignment since console.log is not working
-    // return 'my Happy holidays, you!' // wasa returned
-    return "Happy holidays, ${name}!" // fails to accept passed value
-  }
+    // return 'my Happy holidays, you!' // 1st test OK
+    return "Happy holidays, ${name}!" // 2nd test did not use passed value
 
   return "Happy holidays, ${name}!"
 } 
@@ -26,8 +25,8 @@ function happyHolidayTo(holiday, name) {
 // function happyHolidayTo(holiday='Independence Day', name='you') { 
  */
   if (holiday === 'Independence Day' && name === 'you') { // used with if to confirm parameter assignment since console.log is not working
-    return "Happy ${holiday}, ${name}!"
-    // return 'my Happy Independence Day, you!'
+    // return 'my Happy Independence Day, you!' // 1st test OK
+    return "Happy ${holiday}, ${name}!" // 2nd test did not use passed values
   }
 
   return "Happy ${holiday}, ${name}!" 
@@ -38,8 +37,8 @@ function holidayCountdown(holiday, days) {
 // function holidayCountdown(holiday='Mother\'s Day', days=20) { 
  */
   if (holiday === 'Mother\'s Day' && days === 20) { // used with if to confirm parameter assignment since console.log is not working
-    return "It\'s ${days} days until ${holiday}!"
-    // return "my It\'s 20 days until Mother\'s Day!"
+    // return "my It\'s 20 days until Mother\'s Day!" // 1st test OK
+    return "It\'s ${days} days until ${holiday}!" // 2nd test did not use passed values
   }
 
   return "It\'s ${days} days until ${holiday}!"
