@@ -22,11 +22,12 @@ function happyHolidaysTo(name='you') {
 
 function happyHolidayTo(holiday, name) {
 /*
-// function happyHolidayTo(holiday='Independence Day', name='you') { // used with if to confirm parameter assignment since console.log is not working
-  if (holiday === 'Independence Day' && name === 'you') { 
+// function happyHolidayTo(holiday='Independence Day', name='you') { 
+ */
+  if (holiday === 'Independence Day' && name === 'you') { // used with if to confirm parameter assignment since console.log is not working
     return 'Happy Independence Day, you!'
   }
- */
+
   return "Happy ${holiday}, ${name}!" 
 }
 
