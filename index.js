@@ -11,7 +11,7 @@ function happyHolidays() {
 
 function happyHolidaysTo(name) {
 // function happyHolidaysTo(name='you') { 
-  if (name === 'you') { // used to confirm arguments OK since console.log is not working
+  if (name === 'you') { // used to confirm argument OK since console.log is not working
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
     return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
   }
