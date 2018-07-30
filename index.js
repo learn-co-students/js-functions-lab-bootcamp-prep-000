@@ -14,8 +14,8 @@ function happyHolidaysTo(name) {
 function happyHolidaysTo(name='you') { 
  */
   if (name === 'you') { // used with if to confirm parameter assignment since console.log is not working
-    return "Happy holidays, ${name}!"
-    // return 'my Happy holidays, you!'
+    // return 'my Happy holidays, you!' // wasa returned
+    return "Happy holidays, ${name}!" // fails to accept passed value
   }
 
   return "Happy holidays, ${name}!"
