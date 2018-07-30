@@ -16,8 +16,9 @@ function happyHolidaysTo(name='you') {
   if (name === 'you') { // used with if to confirm parameter assignment since console.log is not working
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
     return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
-
+  }
   return "Happy holidays, ${name}!"
+  
 } 
 
 function happyHolidayTo(holiday, name) {
