@@ -11,11 +11,12 @@ function happyHolidays() {
 
 function happyHolidaysTo(name) {
 /*
-function happyHolidaysTo(name='you') { // used with if to confirm parameter assignment since console.log is not working
-  if (name === 'you') { 
+function happyHolidaysTo(name='you') { 
+ */
+  if (name === 'you') { // used with if to confirm parameter assignment since console.log is not working
     return 'Happy holidays, you!'
   }
- */ 
+
   return "Happy holidays, ${name}!"
 } 
 
