@@ -25,7 +25,7 @@ function happyHolidayTo(holiday, name) {
     // return 'my Happy Independence Day, you!' // 1st test result OK with either declaration
     return "Happy ${holiday}, ${name}!" // 2nd test result FAILS with either declaration
   }
-
+  console.log('holiday is , ${holiday}')
   return "Happy ${holiday}, ${name}!" 
 }
 
