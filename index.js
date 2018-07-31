@@ -16,7 +16,8 @@ var name = myname // fails when argument is not 'you'
   if (name === 'you') { // used to confirm argument OK since console.log is not working
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
     // return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
-    return "Happy holidays, ${myname}!" // 3rd test fails
+    // return "Happy holidays, ${myname}!" // 3rd test fails
+    return "Happy holidays, everyone!" // results when passed vale "me"
   }
   
   console.log("happyHolidaysTo name is ${name}")
