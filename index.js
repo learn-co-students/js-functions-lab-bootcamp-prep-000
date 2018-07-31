@@ -1,11 +1,9 @@
 // write your code below!
-/*
-
 
 function happyHolidays() { 
   return 'Happy holidays!'
 }
-
+/*
 // ALL 3 of these functions have Error: expected ne actual
 
 // function happyHolidaysTo(name) {
