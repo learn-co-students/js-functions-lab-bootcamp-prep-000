@@ -21,4 +21,4 @@ function holidayCountdown(holiday, days) {
 happyHolidays() 
 happyHolidaysTo('everyone') 
 happyHolidayTo('Independence Day', 'everyone') 
-holidayCountdown('Mother\'s Day', 120) 
+holidayCountdown('Mother\'s Day', 300) 
