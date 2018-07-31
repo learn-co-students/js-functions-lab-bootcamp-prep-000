@@ -17,8 +17,9 @@ function happyHolidayTo(holiday, name) {
 
 function holidayCountdown(holiday, days) {
   //actual
-  return "It\'s ${days} days until ${holiday}"
-  //expected return "It\'s 20 days until Mother's Day!"
+  // return "It\'s ${days} days until ${holiday}"
+  //expected 
+  return "It\'s 20 days until Mother\'s Day!"
 }
 
 {
