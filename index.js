@@ -61,7 +61,7 @@ happyHolidays()
  
 // happyHolidaysTo()
 // happyHolidaysTo('you') 
-happyHolidaysTo('me') 
+happyHolidaysTo("me") 
 
 // happyHolidayTo() 
 happyHolidayTo('Independence Day', 'you') 
