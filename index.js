@@ -29,16 +29,14 @@ function holidayCountdown(holiday, days) {
   console.log("holidayCountdown holiday is ${holiday} and days is ${days}")
   return "It\'s ${days} days until ${holiday}
 }
-
+ */
 console.log('Starting Function Lab.') // DOES NOT DISPLAY
 
-happyHolidays 
 happyHolidays() 
  
-// happyHolidaysTo()
-// happyHolidaysTo('you') 
-happyHolidaysTo("me") 
 
+happyHolidaysTo('you') 
+/*
 // happyHolidayTo() 
 happyHolidayTo('Independence Day', 'you') 
 
