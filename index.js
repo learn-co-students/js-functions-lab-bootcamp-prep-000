@@ -17,16 +17,12 @@ var name = myname // fails when argument is not 'you'
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
     // return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
     // return "Happy holidays, ${myname}!" // 3rd test fails
-<<<<<<< HEAD
     return "Happy holidays, everyone!" // result  when passed value was "me"
-=======
-    return "Happy holidays, everyone!" // results when passed vale "me"
->>>>>>> 4843e954ec18d6dee29f3cb3e8a4e9a0693c47b6
   }
   
   console.log("happyHolidaysTo name is ${name}")
   // return "Happy holidays, ${name}!"
-  return "Happy holidays, ${myname}!" // fails
+  // return "Happy holidays, ${myname}!" // fails
   return "Happy holidays, everyone!" 
 } 
 
