@@ -15,6 +15,9 @@ function happyHolidaysTo(name) {
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
     return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
   }
+  
+  console.log('holiday is , ${holiday}and name is ${name}')
+  return "Happy ${holiday}, ${name}!" 
   return "Happy holidays, ${name}!"
   
 } 
@@ -25,7 +28,8 @@ function happyHolidayTo(holiday, name) {
     // return 'my Happy Independence Day, you!' // 1st test result OK with either declaration
     return "Happy ${holiday}, ${name}!" // 2nd test result FAILS with either declaration
   }
-  console.log('holiday is , ${holiday}and name is ${name}')
+  
+  console.log('holiday is  ${holiday} and name is ${name}')
   return "Happy ${holiday}, ${name}!" 
 }
 
