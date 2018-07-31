@@ -9,16 +9,17 @@ function happyHolidays() {
 
 // ALL 3 of these functions have Error: expected ne actual
 
-function happyHolidaysTo(name) {
-// function happyHolidaysTo(name='you') { 
+function happyHolidaysTo(myname) {
+// function happyHolidaysTo(name='you') {
+var name = myname
   if (name === 'you') { // used to confirm argument OK since console.log is not working
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
     return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
   }
   
   console.log("happyHolidaysTo name is ${name}")
-  return "Happy holidays, ${name}!"
-  
+  // return "Happy holidays, ${name}!"
+  return "Happy holidays, ${myname}!"
 } 
 
 function happyHolidayTo(holiday, name) {
