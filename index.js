@@ -17,7 +17,8 @@ function holidayCountdown(holiday, days) {
 }
 
 
+
 happyHolidays() 
-happyHolidaysTo(`you`) 
-happyHolidayTo(`Independence Day`, `you`) 
-holidayCountdown(`Mother\'s Day`, `20`) 
+happyHolidaysTo('you') 
+happyHolidayTo('Independence Day', 'you') 
+holidayCountdown('Mother\'s Day', 2) 
