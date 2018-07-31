@@ -22,6 +22,7 @@ var name = myname // fails when argument is not 'you'
   console.log("happyHolidaysTo name is ${name}")
   // return "Happy holidays, ${name}!"
   return "Happy holidays, ${myname}!" // fails
+  return "Happy holidays, everyone!"
 } 
 
 function happyHolidayTo(holiday, name) {
