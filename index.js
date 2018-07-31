@@ -1,7 +1,6 @@
 // write your code below!
 /*
-My functions
- */
+
 
 function happyHolidays() { 
   return 'Happy holidays!'
@@ -45,16 +44,8 @@ function holidayCountdown(holiday, days) {
   }
 
   console.log("holidayCountdown holiday is ${holiday} and days is ${days}")
-  return "It\'s ${days} days until ${holiday}!"
+  return "It\'s ${days} days until ${holiday}
 }
-
-/*
-End of my functions
- */
- 
-/*
-main routine
- */
 
 console.log('Starting Function Lab.') // DOES NOT DISPLAY
 
@@ -73,6 +64,4 @@ holidayCountdown('Mother\'s Day', 20)
 
 console.log('Finished Function Lab.') // DOES NOT DISPLAY
 
-/*
-End of main routine
  */
