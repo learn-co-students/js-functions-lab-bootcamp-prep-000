@@ -17,13 +17,13 @@ var name = myname // fails when argument is not 'you'
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
     // return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
     // return "Happy holidays, ${myname}!" // 3rd test fails
-    return "Happy holidays, everyone!" // results when passed vale "me"
+    return "Happy holidays, everyone!" // result  when passed value was "me"
   }
   
   console.log("happyHolidaysTo name is ${name}")
   // return "Happy holidays, ${name}!"
   return "Happy holidays, ${myname}!" // fails
-  return "Happy holidays, everyone!"
+  return "Happy holidays, everyone!" 
 } 
 
 function happyHolidayTo(holiday, name) {
