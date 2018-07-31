@@ -11,15 +11,16 @@ function happyHolidays() {
 
 function happyHolidaysTo(myname) {
 // function happyHolidaysTo(name='you') {
-var name = myname
+var name = myname // fails
   if (name === 'you') { // used to confirm argument OK since console.log is not working
     // return 'my Happy holidays, you!' // 1st test result OK with either declaration
-    return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
+    // return "Happy holidays, ${name}!" // 2nd test result FAILS with either declaration
+    return "Happy holidays, ${myname}!" // 2nd test
   }
   
   console.log("happyHolidaysTo name is ${name}")
   // return "Happy holidays, ${name}!"
-  return "Happy holidays, ${myname}!"
+  return "Happy holidays, ${myname}!" // fails
 } 
 
 function happyHolidayTo(holiday, name) {
