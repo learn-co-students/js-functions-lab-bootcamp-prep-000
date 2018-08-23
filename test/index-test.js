@@ -1,4 +1,6 @@
-/*global describe, it*/
+function happyHolidays () {
+  return "Happy holidays!"
+}
 
 describe('functions', () => {
   describe('happyHolidays', () => {
