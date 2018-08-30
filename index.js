@@ -1,15 +1,14 @@
 // write your code below!
 function happyHolidays() {
-  return "Happy Holidays!"
+  return "Happy holidays!"
 }
 
 function happyHolidaysTo(name) {
   return `Happy holidays, ${name}!`
 }
 function happyHolidayTo(holiday, name) {
-  return `Happy ${holiday}, to ${name}!`
+  return `Happy ${holiday}, ${name}!`
 }
-function holidayCountdown(days, holiday) {
-  console.log(15, "New Years")
+function holidayCountdown(holiday, days) {
   return `It's ${days} days until ${holiday}!`
 }
