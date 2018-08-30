@@ -5,13 +5,11 @@ function happyHolidays() {
 
 function happyHolidaysTo(name) {
   return `Happy holidays, ${name}!`
-  happyHolidaysTo("Roneil")
 }
-function happyHolidayTo(New Years, Ron) {
+function happyHolidayTo(holiday, name) {
   return `Happy ${holiday}, to ${name}!`
 }
 function holidayCountdown(days, holiday) {
   console.log(15, "New Years")
   return `It's ${days} days until ${holiday}!`
-}
 }
