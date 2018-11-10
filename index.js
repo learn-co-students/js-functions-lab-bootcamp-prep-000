@@ -10,7 +10,7 @@ function happyHolidaysTo(){
 
 function happyHolidayTo(name, holiday){
   const name = "Bryan";
-  const holiday = "Thanksfuckinggiving";
+  const holiday = "Thanksgiving";
   return (`Happy ${holiday}, ${name}!`)
 }
 function holidayCountdown (holiday, days){
@@ -20,3 +20,7 @@ function holidayCountdown (holiday, days){
 };
 
 console.log("WTF");
+
+happyHolidays;
+happyHolidaysTo;
+holidayCountdown;
