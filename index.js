@@ -3,6 +3,20 @@ function happyHolidays () {
     return "Happy Holidays!";
 } ;
 
-happyHolidays;
-console.log(happyHolidays);
+function happyHolidaysTo(){
+  const name = "Gwynevere";
+  return (`Happy Holidays ${name}!`);
+};
+
+function happyHolidayTo(name, holiday){
+  const name = "Bryan";
+  const holiday = "Thanksfuckinggiving";
+  return (`Happy ${holiday}, ${name}!`)
+}
+function holidayCountdown (holiday, days){
+  holiday = "Thanksfuckinggiving";
+  days === 20;
+  return `It is ${days} until ${holiday}`;
+};
+
 console.log("WTF");
