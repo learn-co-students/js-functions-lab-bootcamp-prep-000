@@ -23,4 +23,4 @@ console.log("WTF");
 
 happyHolidays;
 happyHolidaysTo;
-holidayCountdown;
+holidayCountdown
