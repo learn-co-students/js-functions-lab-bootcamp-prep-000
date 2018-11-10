@@ -26,4 +26,4 @@ function holidayCountdown(holiday, days){
   var message = `It\'\s ${days} days until ${holiday}!`
   return message;
 }
-holidayCountdown("Mother's Day", 43);
+holidayCountdown("Mother's Day", 43)
