@@ -1,4 +1,4 @@
-# JavaScript Functions
+l# JavaScript Functions
 
 ## Objectives
 
