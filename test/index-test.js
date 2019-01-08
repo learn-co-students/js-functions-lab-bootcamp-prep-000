@@ -13,11 +13,11 @@ describe('functions', () => {
     })
   })
 
-  describe('happyHolidayTo(holiday, name)', () => {
-    it('returns "Happy ${holiday}, ${name}!"', () => {
-      expect(happyHolidayTo('Independence Day', 'you')).toEqual('Happy Independence Day, you!')
-    })
+describe('happyHolidayTo(holiday, name)', () => {
+  it('returns "Happy ${holiday}, ${name}!"', () => {
+    expect(happyHolidayTo("Independance Day", "you")).toEqual("Happy Independance Day, you!")
   })
+})
 
   describe('holidayCountdown(holiday, days)', () => {
     it('returns "It\'s ${days} days until ${holiday}!"', () => {
