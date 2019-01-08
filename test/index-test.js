@@ -1,21 +1,21 @@
 /*global describe, it*/
 
 describe('functions', () => {
-  describe('happyHolidays', () => {
-    it('returns "Happy holidays!"', () => {
-      expect(happyHolidays()).toEqual('Happy holidays!')
+  describe('MerryChristmas', () => {
+    it('returns "Merry Christmas!"', () => {
+      expect(MerryChristmas()).toEqual('Merry Christmas!')
     })
   })
 
-  describe('happyHolidaysTo(name)', () => {
-    it('returns "Happy holidays, ${name}!"', () => {
-      expect(happyHolidaysTo('you')).toEqual('Happy holidays, you!')
+  describe('MerryChristmasTo(name)', () => {
+    it('returns "Merry Christmas, ${name}!"', () => {
+      expect(MerryChristmasTo('Daniel')).toEqual('Merry Christmas, Daniel!')
     })
   })
 
   describe('happyHolidayTo(holiday, name)', () => {
     it('returns "Happy ${holiday}, ${name}!"', () => {
-      expect(happyHolidayTo('Independence Day', 'you')).toEqual('Happy Independence Day, you!')
+      expect(happyHolidayTo('Independence Day', 'Daniel')).toEqual('Happy Independence Day, Daniel!')
     })
   })
 
