@@ -1,0 +1,98 @@
+
+> js-functions-lab@0.1.0 test /home/jayvalentine87-51727/code/labs/js-functions-lab-bootcamp-prep-000
+> mocha -R mocha-multi --reporter-options nyan=-,json=.results.json
+
+ 0
+ 0
+ 0
+
+[4A[5C-
+[5C-
+[5C-
+[5C-
+[4A[6C_,------,
+[6C_|   /\_/\ 
+[6C^|__( - .-) 
+[6C  ""  "" 
+[4A 0
+ 1
+ 0
+
+[4A[5C-_
+[5C-_
+[5C-_
+[5C-_
+[4A[7C_,------,
+[7C_|  /\_/\ 
+[7C~|_( x .x) 
+[7C ""  "" 
+[4A 0
+ 2
+ 0
+
+[4A[5C-_-
+[5C-_-
+[5C-_-
+[5C-_-
+[4A[8C_,------,
+[8C_|   /\_/\ 
+[8C^|__( x .x) 
+[8C  ""  "" 
+[4A 0
+ 3
+ 0
+
+[4A[5C-_-_
+[5C-_-_
+[5C-_-_
+[5C-_-_
+[4A[9C_,------,
+[9C_|  /\_/\ 
+[9C~|_( x .x) 
+[9C ""  "" 
+[4A 0
+ 4
+ 0
+
+[4A[5C-_-_-
+[5C-_-_-
+[5C-_-_-
+[5C-_-_-
+[4A[10C_,------,
+[10C_|   /\_/\ 
+[10C^|__( x .x) 
+[10C  ""  "" 
+[4A
+
+
+
+
+  0 passing (2s)
+  4 failing
+
+  1) functions happyHolidays returns "Happy holidays!":
+     ReferenceError: happyHolidays is not defined
+      at Context.it (test/index-test.js:6:14)
+
+  2) functions happyHolidaysTo(name) returns "Happy holidays, ${name}!":
+
+      Error: Expected 'Happy holidays!' to equal 'Happy holidays, you!'
+      + expected - actual
+
+      -Happy holidays!
+      +Happy holidays, you!
+      
+      at assert (node_modules/expect/lib/assert.js:29:9)
+      at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)
+      at Context.it (test/index-test.js:12:38)
+
+  3) functions happyHolidayTo(holiday, name) returns "Happy ${holiday}, ${name}!":
+     ReferenceError: happyHolidayTo is not defined
+      at Context.it (test/index-test.js:18:14)
+
+  4) functions holidayCountdown(holiday, days) returns "It's ${days} until ${holiday}!":
+     ReferenceError: holidayCountdown is not defined
+      at Context.it (test/index-test.js:24:14)
+
+
+
