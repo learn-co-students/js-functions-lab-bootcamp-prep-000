@@ -1,6 +1,6 @@
 /*global describe, it*/
 
-describe('functions', () => {
+describe('function', () => {
   describe('happyHolidays', () => {
     it('returns "Happy holidays!"', () => {
       expect(happyHolidays()).toEqual('Happy holidays!')
