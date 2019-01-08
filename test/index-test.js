@@ -1,4 +1,30 @@
-/*global describe, it*/
+describe('functions', () => {
+  describe('happyHolidays', () => {
+    it('returns "Happy holidays!"', () => {
+      expect(happyHolidays()).toEqual('Happy holidays!')
+    })
+  })
+
+  describe('happyHolidaysTo(name)', () => {
+    it('returns "Happy holidays, ${name}!"', () => {
+      expect(happyHolidaysTo('Bailey')).toEqual('Happy holidays, Bailey!')
+    })
+  })
+
+  describe('happyHolidayTo(holiday, name)', () => {
+    it('returns "Happy ${holiday}, ${name}!"', () => {
+      expect(happyHolidayTo('Thanksgiving', 'Bailey')).toEqual('Happy Thanksgiving, Bailey!')
+    })
+  })
+
+  describe('holidayCountdown(holiday, days)', () => {
+    it('returns "It\'s ${days} days until ${holiday}!"', () => {
+      expect(holidayCountdown("Thanksgiving", 244)).toEqual("It's 244 days until Thanksgiving!")
+    })
+  })
+})
+
+/*global describe, it
 
 describe('functions', () => {
   describe('happyHolidays', () => {
@@ -25,3 +51,5 @@ describe('functions', () => {
     })
   })
 })
+
+*/
