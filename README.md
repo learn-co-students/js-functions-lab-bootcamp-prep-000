@@ -21,3 +21,7 @@ In this lab, we're going to develop our communication skills in JavaScript. We'r
 4. Write a function named `holidayCountdown`. This function should accept two parameters, the holiday name and number of days till that holiday. The function should return the string `` `It's ${days} days until ${holiday}!` ``
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-functions-lab'>Functions Lab</a> on Learn.co and start learning to code for free.</p>
+
+function happyHolidays() {
+  return "Happy holidays!"
+}
