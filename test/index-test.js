@@ -1,4 +1,5 @@
 /*global describe, it*/
+//global.expect = require("../index.js");
 
 describe('functions', () => {
   describe('happyHolidays', () => {
