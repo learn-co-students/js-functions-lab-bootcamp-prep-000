@@ -1,0 +1,16 @@
+Hello World!
+gram
+Programs are interpreted at runtime.
+Which means even though I'm writing this Tue Jan 17 2012 8:36am
+the time now is 2018-12-21 17:15:00 -0500
+Programs have flow.
+Which means that you see this first
+and this next.
+Lines of code are executed linearly, that's flow.
+First come, first served.
+Programs are composed of basically three things:
+A language's keywords, like 'if' or 'end' (approximately 43).
+Literal pieces of data like this very sentence (or String).
+Finally, barewords, or variables, that are set equal to things.
+Anything that isn't one of those will cause an error.
+ves = :nothing`. Called from /Users/angelospampinato/Documents/js-functions-lab-bootcamp-prep-000/ruby-lecture-fixing-our-broken-program-dumbo-web-career-012819/spec/a_broken_program_spec.rb:4:in `block (2 levels) in <top (required)>'.
