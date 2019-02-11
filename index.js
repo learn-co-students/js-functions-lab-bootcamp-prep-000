@@ -1,26 +1,26 @@
-// write your code below!
-var countDown = `It's ${days} days until ${holidayTwo}!`
-var days = 20
-var greeting = `Happy holidays!`
-var greetingOther = `Happy holidays, you!`
-var happy = `Happy ${holidayOne}, ${name}!`
-var holidayOne = "Independence Day"
-var holidayTwo = "Mother's Day"
-var name = "you"
-
+// write your code below! - Have your variables as local as possible!!!
 
 function happyHolidays() {
+var greeting = "Happy holidays!"
   return(greeting)
 }
 
 function happyHolidaysTo(name) {
-  return(greetingOther)
+var name = "you"
+var greeting = `Happy holidays, ${name}!`
+  return(greeting)
 }
 
-function happyHolidayTo(holidayOne, name) {
-  return(happy)
+function happyHolidayTo(holiday, name) {
+var holiday = "Independence Day"
+var name = "you"
+var greeting = `Happy ${holiday}, ${name}!`
+  return(greeting)
 }
 
-function holidayCountdown(days, holidayTwo) {
+function holidayCountdown(days, holiday) {
+var holiday = "Mother's Day"
+var days = 20
+var countDown = `It\'s ${days} days until ${holiday}!`
   return(countDown)
 }
