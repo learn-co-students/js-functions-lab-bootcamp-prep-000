@@ -18,3 +18,5 @@ function happyHolidayTo(holiday, name) {
 function holidayCountdown(holiday, days) {
   return `It\'s ${days} days until ${holiday}!`;
 }
+
+// for some reason, when I type `"It's ${days} days until ${holiday}!"` it no work. 
