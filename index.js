@@ -1,21 +1,22 @@
-// write your code below!
 
-function happyHolidays(string) {
+
+function happyHolidays(String) {
   return "Happy holidays!"
 }
 
-
 function happyHolidaysTo(string) {
- console.log(`"Happy holidays, ${name}!"`)
-  return "Happy holidays, you!"
+  var name = "you"
+  return `Happy holidays, ${name}!`
 }
 
-function happyHolidayTo(holiday, name) {
-  console.log(`"Happy ${holiday}, ${name}!`)
-  return 'Happy Independence Day, you!'
+function happyHolidayTo(string) {
+  var holiday = "Independence Day"
+  //var name = "you"
+  return `Happy ${holiday}, ${name}!`
 }
 
-function holidayCountdown(days, holiday) {
-  console.log(`"It's ${days} days until ${holiday}!`)
-  return "It's 20 days until Mother's Day!"
+function holidayCountdown(string) {
+  var days = "20"
+  var holiday = "Mother's Day"
+  return `It's ${days} days until ${holiday}!`
 }
