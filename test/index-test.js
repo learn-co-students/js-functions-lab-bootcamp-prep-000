@@ -1,5 +1,5 @@
 /*global describe, it*/
-
+/*
 describe('functions', () => {
   describe('happyHolidays', () => {
     it('returns "Happy holidays!"', () => {
@@ -25,3 +25,4 @@ describe('functions', () => {
     })
   })
 })
+*/
