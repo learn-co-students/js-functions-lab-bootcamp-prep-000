@@ -1,20 +1,19 @@
 // write your code below!
-  const happyHolidays = () =>{
-    return "Happy holidays!";
-  }
+function happyHolidays() {
+  return "Happy holidays!"
+}
 
-  const happyHolidaysTo = (name) =>{
-    return `Happy holidays, ${name}!`;
-  }
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`
+}
 
-  const happyHolidayTo = (holiday, name) => {
-    return `Happy ${holiday}, ${name}!`;
-  }
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
+}
 
-  const holidayCountdown = (holiday, day) =>{
-    return `It's ${day} days until ${holiday} Day!`
-  }
-
+function holidayCountdown(holiday, days) {
+  return `It's ${days} days until ${holiday}!`
+}
 
 //console.log(happyHolidaysTo('Martin'));
 //console.log(happyHolidayTo('Carnaval','Martin'));
