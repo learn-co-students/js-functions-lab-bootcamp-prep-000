@@ -1,4 +1,6 @@
 // write your code below!
 function happyHolidays(string) {
-  return "Happy hoildays!"
+  var string = happyHolidays
+  if (string === Happy holidays!)
+  return "Happy holidays!"
 }
