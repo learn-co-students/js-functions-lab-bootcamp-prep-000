@@ -3,11 +3,11 @@ function happyHolidays(){
   return "Happy holidays!"
 }
 function happyHolidaysTo(mika){
-  return  `Happy holidays, ${name}!`
+  return  `Happy holidays, ${'you'}!`
 }
-function happyHollidayTo(june,mika){
-  return `Happy ${holiday}, ${name}!`
+function happyHolidayTo(holiday, pranas){
+  return `Happy ${holiday}, ${pranas}!`
 }
-function holidayCountdown(junetime,sevendays){
-  return `It's ${days}, ${holiday}!`
+function holidayCountdown(days , sevendays){
+  return `It's ${sevendays} days until ${days}!`
 }
