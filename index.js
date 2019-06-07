@@ -1,6 +1,5 @@
 // write your code below!
-function happyHolidays(){
-  return "Happy holidays!";
+function happyHolidaysTo(name, string){
+return (`Happy holidays ${name}`);
 }
-
-happyHolidays();
+happyHolidaysTo('Armstrong', 'Happy holidays');
