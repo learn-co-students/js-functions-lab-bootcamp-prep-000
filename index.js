@@ -1,4 +1,4 @@
-function holidayCountdown(holiday,days){
-  return (`It's ${days} days until ${holiday}!`);
+function happyHolidayTo(thirdterm, name){
+  return (`Happy ${holiday}, ${name}!`)
 }
-holidayCountdown( 'summer break', '50');
+happyHolidayTo('easter, Armstrong');
