@@ -1,3 +1,5 @@
-function holidayCountdown(holiday, days){
-returns (`It's ${days} days until ${holiday}`);
-holidayCountdown('70', easter);
+function holidayCountdown(days, holiday){
+  return (`It's  ${days} days until ${holiday}`)
+  
+}
+twin(20,'easter');
