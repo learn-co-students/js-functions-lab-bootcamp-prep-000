@@ -1,4 +1,4 @@
-/*global describe, it*/
+ /*global describe, it*/
 
 describe('functions', () => {
   describe('happyHolidays', () => {
@@ -8,7 +8,7 @@ describe('functions', () => {
   })
 
   describe('happyHolidaysTo(name)', () => {
-    it('returns "Happy holidays, ${name}!"', () => {
+    it('returns "Happy  holidays, ${name}!"', () => {
       expect(happyHolidaysTo('you')).toEqual('Happy holidays, you!')
     })
   })
