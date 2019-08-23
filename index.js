@@ -1,22 +1,20 @@
-const happyHolidays = () =>{
-  return "Happy holidays!"
+module.exports = {
+
+  happyHolidays: function(){
+    return "Happy holidays!"
+  },
+  
+  happyHolidaysTo: function(name){
+    return `Happy holidays, ${name}!`
+  },
+  
+  happyHolidayTo: function(holiday,name){
+    return `Happy ${holiday}, ${name}!`
+  },
+  
+  holidayCountdown: function(holiday,days){
+    return `It's ${days} days until ${holiday}!`
+  }
 }
 
-const happyHolidaysTo = name =>{
-  return `Happy holidays, ${name}!`
-}
-
-const happyHolidayTo = (holiday,name) =>{
-  return `Happy ${holiday}, ${name}!`
-}
-
-const holidayCountdown = (days,holiday)=>{
-  return `It's ${days} days until ${holiday}!`
-}
-
-// Testing
-console.log(happyHolidays())
-console.log(happyHolidaysTo("Hamidou"))
-console.log(happyHolidayTo("thanksgiving","Anne"))
-console.log(holidayCountdown(3,"christmas"))
 
