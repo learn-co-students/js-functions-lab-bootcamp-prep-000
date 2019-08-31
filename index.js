@@ -6,8 +6,8 @@ function happyHolidays() {
 }
 
 
-function happyHolidaysTo(hoilday, name) {
-  return "Happy Mother's Day, you!";
+function happyHolidayTo(hoilday, name) {
+  return "Happy Independence Day, you!";
 }
 
 function happyHolidaysTo(name) {
