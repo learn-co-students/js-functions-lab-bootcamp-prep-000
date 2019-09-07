@@ -1,15 +1,31 @@
-function (happyHolidays) {
-  retrun '${happyHolidays!}'
+function happyHolidays() {
+  return "Happy holidays!"
 }
 
-function (happyHolidaysTo) {
-  return 'Happy hollidays', '${you}!'
+function happyHolidaysTo(name){
+  return `Happy holidays, ${name}!`
 }
 
-function (happyHolidayTo) {
-  'Happy ${holiday}, ${me}!'
+function happyHolidayTo(holiday, name){
+  return `Happy ${holiday}, ${name}!`
 }
 
-function (holidayCountdown) {
-  " It's ${20} days until ${Mother's Day}!"
+function holidayCountdown(holiday, days){
+  return `It's ${days} days until ${holiday}!`
 }
+
+// function happyHolidays() {
+//   return "Happy holidays!"
+// }
+
+// function happyHolidaysTo(name){
+//   return `Happy holidays, you!`
+// }
+
+// function happyHolidayTo(holiday, name){
+//   return `Happy Independence Day, you!`
+// }
+
+// function holidayCountdown(holiday, days){
+//   return `It's 20 days until Mother's Day!`
+// }
