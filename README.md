@@ -16,7 +16,9 @@ as functions so that we don't have to repeat ourselves. The beauty of functions
 is that we could reuse these functions for the text of greeting cards, for
 spoken greetings, for song lyrics, etc.
 
-Note: We are wrapping our strings in back ticks, `` ` ``, not single quotes, `` ' ``, in order to format variables inside our strings. These are called [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals),
+Note: We are wrapping our strings in back ticks, `` ` ``, not single quotes, 
+`` ' ``, in order to format variables inside our strings. These are called 
+[template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals),
 
 1. Write a function named `happyHolidays`. This function should not accept any
 parameters and should return the string `"Happy holidays!"`.
@@ -31,7 +33,7 @@ person you're wishing well. This function should return the string
 `` `Happy ${holiday}, ${name}!` ``
 
 4. Write a function named `holidayCountdown`. This function should accept two
-parameters, the holiday name and number of days till that holiday. The function
+parameters, the holiday name and number of days till that holiday. The function 
 should return the string `` `It's ${days} days until ${holiday}!` ``
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-functions-lab'>Functions Lab</a> on Learn.co and start learning to code for free.</p>
