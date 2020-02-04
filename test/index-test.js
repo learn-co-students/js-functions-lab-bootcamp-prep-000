@@ -14,10 +14,10 @@ describe('functions', () => {
     })
   })
 
-  describe('happyHolidayTo(holiday, name)', () => {
+  describe('happyCustomHolidayTo(holiday, name)', () => {
     it('returns "Happy ${holiday}, ${name}!"', () => {
-      expect(happyHolidayTo('Independence Day', 'you')).toEqual('Happy Independence Day, you!')
-      expect(happyHolidayTo('New Year', 'everyone')).toEqual('Happy New Year, everyone!')
+      expect(happyCustomHolidayTo('Independence Day', 'you')).toEqual('Happy Independence Day, you!')
+      expect(happyCustomHolidayTo('New Year', 'everyone')).toEqual('Happy New Year, everyone!')
     })
   })
 
