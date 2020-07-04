@@ -94,3 +94,20 @@ combining different data types into strings, like we just saw.
    take in the holiday name first, then the days until that holiday.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-functions-lab'>Functions Lab</a> on Learn.co and start learning to code for free.</p>
+
+
+function happyHolidays() {
+  return "Happy holidays!"
+  }
+
+function happyHolidaysTo(name){
+  return `Happy holidays, ${name}!`
+}
+ 
+function happyCustomHolidayTo(holiday, name){
+  return `Happy ${holiday}, ${name}!`
+}
+
+function holidayCountdown(holiday, days){
+  return `It\'s ${days} days until ${holiday}!`
+}
