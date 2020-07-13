@@ -7,9 +7,21 @@ function happyHolidays()
   return ("Happy holidays!");
 }
 
+
 var name = "you";
 function happyHolidaysTo(name)
 {
-  console.log("Happy holidays, "+ name + "!");
+  console.log(`Happy holidays, ${name}!`);
   return (`Happy holidays, ${name}!`);
 }
+
+
+
+var holiday = "Independence Day"
+var name = "you"
+function happyCustomHolidayTo(holiday, name)
+{
+  console.log(`Happy ${holiday}, ${name}!`);
+  return (`Happy ${holiday}, ${name}!`);
+}
+
