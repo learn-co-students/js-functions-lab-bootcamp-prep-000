@@ -92,5 +92,3 @@ combining different data types into strings, like we just saw.
    `` `It's ${days} days until ${holiday}!` ``. Note that although `days` is
    used first when constructing the returned string, `holidayCountdown` should
    take in the holiday name first, then the days until that holiday.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/js-functions-lab'>Functions Lab</a> on Learn.co and start learning to code for free.</p>
