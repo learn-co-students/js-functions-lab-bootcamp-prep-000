@@ -1,1 +1,3 @@
-// write your code below!
+var message = "Happy holidays!"
+
+console.log ('${message}')
